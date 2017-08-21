@@ -1,0 +1,53 @@
+.nav-main-reg ul li{
+	width:auto;
+	float:none;
+	text-align: center;
+}
+.nav-main-reg ul li.regt-address input{
+	width:198px;
+}
+.nav-main-reg ul li label{
+	width:80px;
+	display:inline-block;
+	text-align: left;
+	font-size:13px;
+	font-family:"微软雅黑";
+}
+.nav-main-reg ul{
+	padding:40px 0;
+}
+.nav-main-reg ul li span{
+	font-size:13px;
+	font-family:"微软雅黑";
+}
+.nav-main-reg ul li span em{
+	color:#FC5F1A;
+	font-size:13px;
+	font-family:"微软雅黑";
+}
+.nav-main-reg ul li.regt-agree input{
+	width:13px;
+	height:13px;
+	background:none;
+	vertical-align: middle;
+}
+.nav-main .nav-main-reg h1{
+	font:bold 28px "微软雅黑";
+	margin:30px 0;
+}
+.regt-agree em{
+	cursor:pointer;
+}
+.nav-main-reg ul li.regist_notop{
+	margin-top:20px;
+}
+.nav-main-reg ul li.regt-agree{
+	margin:20px 0;
+	margin-bottom:30px;
+}
+.nav-main-reg>ul>li:not(:nth-last-of-type(2))>span{
+	color:red;
+	position:absolute;
+	top:15px;
+	padding-left:30px;
+}

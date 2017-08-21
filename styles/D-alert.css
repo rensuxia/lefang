@@ -1,0 +1,37 @@
+/*自定义警告框样式*/
+#alertView{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(220,220,220);
+    border-radius:5px;
+    display: none;
+    position: fixed;
+    float: left;
+}
+
+#tit{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#text{
+    line-height: 50px;
+    font-size: 15px;
+}
+
+#yes,#no{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(240,240,240);
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+#yes{float: left;left: 30px;}
+#no{float: right;right: 30px;}
+#yes:hover,#no:hover{background-color: white;}

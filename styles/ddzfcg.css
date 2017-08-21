@@ -1,0 +1,20 @@
+ .zf_cg{
+          width: 1200px;
+          margin:0 auto;
+          height: 500px;
+          text-align: center;
+        }
+        .cg_bt{
+          font-size: 32px;
+          font-weight: bold;
+          text-align: center;
+          padding:50px 0;
+        }
+        .cg_zf{
+          width: 350px;
+
+        }
+        .red{
+          color:red;
+          padding-top: 15px;
+        }

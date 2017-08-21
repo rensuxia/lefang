@@ -1,0 +1,112 @@
+ th,td{
+	  	text-align: center;
+        padding: 10px 0;
+	  }
+
+	  td{
+	  	font-size: 15px;
+          padding: 10px 0;
+	  }
+	  table{
+	  	/*margin-top: 40px!important;*/
+	  	margin-bottom: 50px!important;
+	  	width: 80!important;
+	  	text-align: center!important;
+	  }
+	  .title{
+			height: 30px!important;
+			/*padding-top: 14px!important;*/
+      background: #f60;
+
+	  }
+	  .btn{
+	  	font-size: 15px;
+	  }
+	  .xian{
+	  	padding:0 6px;
+	  	width: 4px;
+	  }
+	  .cz a:hover{
+		color:red;
+	  }
+    .xs_bt{
+      width: 85%;
+      margin:0 auto;
+      margin-top: 50px;
+      height: 116px;
+      text-align: center;
+      border-top:1px solid #ccc;
+      position:relative;
+    }
+    .search{
+      text-align: right;
+      height: 55px;
+      /*padding-right: 64px;*/
+    }
+
+    .inp{
+       width: 200px;
+       height:35px;
+       border-radius: 6px;
+       margin-right: 5px;
+       border: 1px solid #ccc;
+
+    }
+    .search .xc{
+      display:block;
+      width: 50px;
+      height: 30px;
+      border:1px solid #ccc;
+     /*margin-right:5%;*/
+    }
+    .xs_bt h1{
+        font-size: 21px;
+        line-height: 58px;
+      font-weight: bold;
+    }
+    .hr{
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .box{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menu{
+        /*width: 0%;*/
+        height: 240px;
+        /*float: left;*/
+         position: absolute;
+        top:-55px;
+        left: 23px;
+        padding-top: 10px;
+        text-align: center;
+    }
+      .menu button{
+        margin-bottom:10px;
+        width: 100px;
+      }
+    th{
+      font-size: 16px;
+      font-weight:bold;
+      line-height: 52px;
+    }
+    .btn-primary{
+        background: #f60;
+        border-color: #f60;
+        color: #fff;
+    }
+    .btn-primary:hover{
+        background: #f60;
+        border-color: #f60;
+        color: #fff;
+    }
+    .btn-primary.active{
+        background: #f60;
+        border-color: #f60;
+        color: #fff;
+    }
+    .blue{
+      color:blue;
+    }

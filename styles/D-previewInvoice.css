@@ -1,0 +1,58 @@
+@charset='utf-8';
+
+*{margin: 0;padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.celar{clear: both;}
+.wrapper{width: 400px;margin: 0 auto;}
+
+.conBox{
+	width: 500px;
+    margin: 0 auto;
+    height: 450px;
+    border: 1px solid darkgray;
+}
+
+.Tit{
+	width: 100%;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.Tit p{
+	width: 150px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.c-div{
+	margin-top: 20px;
+}
+
+table td{
+	font-family: '微软雅黑';
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.ltd{
+	text-align: right;
+}
+
+button{
+	width: 100px;
+	margin:0 auto;
+	height: 35px;
+	background: none;
+	margin-top: 20px;
+	outline: none;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+	background-color: white;
+}
+

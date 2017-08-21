@@ -1,0 +1,163 @@
+@charset:"utf-8";
+
+.wrapper{width: 1200px;margin: 0 auto;}
+
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+
+.contentBox{
+	min-height: 500px;
+	padding: 20px;
+}
+
+.tit{
+	font-size: 25px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+table input{
+	margin-left: 10px !important;
+	outline: none !important;
+}
+
+.btn{
+	width: 80px;
+	height: 30px;
+	background: none;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+	background-color: rgb(235,235,235);
+	margin-left: 20px;
+	color: #333;
+}
+
+.btn:hover{
+	color: white;
+	background-color: rgb(235,96,0);
+}
+
+.searchBtn{
+	color: white;
+	background-color: rgb(235,96,0);
+}
+
+.search{
+	margin-top: 15px;
+}
+
+.invoices{
+	width: 900px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.invoices td{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+
+.sqfp_invoiceTit td,.dkfp_invoiceTit td,.fpgl_invoiceTit td{
+	height: 35px;
+	line-height: 35px;
+	background-color: rgb(235,235,235);
+}
+
+.bl{border-left: 1px solid rgb(235,235,235)}
+.br{border-right: 1px solid rgb(235,235,235)}
+
+.invoiceText,.money{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.money{
+	color: red;
+}
+
+.commitBtn{
+	width: 100px;
+	height: 35px;
+	margin-top: 30px;
+	background-color: rgb(0,153,205);
+	border: 0;
+	border-radius: 8px;
+	color: white;
+	outline: none;
+}
+
+.conentInvoices{
+	width: 950px;
+	min-height: 500px;
+}
+
+.invoicesList{
+	width: 200px;
+	height: 500px;
+}
+
+.userImg{
+	width: 162px;
+	margin: 0 auto;
+	height: 162px;
+	background:url(../images/Invoices/user.png) no-repeat;
+}
+
+.Llist{
+	width: 200px;
+	min-height: 200px;
+	text-align: center;
+	margin-top: 35px;
+	border-top: 1px solid darkgray;
+}
+
+.Llist li{
+	list-style: none;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: darkgray;
+}
+
+.Llist li:hover{
+	background-color: rgb(0,153,205);
+}
+
+.parent:hover .child{
+	display: block;
+}
+
+.fpgl-child li{
+	cursor: pointer;
+}
+
+.child{
+	display: none;
+	position: relative;
+	background-color: white;
+	border-top: 1px solid darkgray;
+	left: 200px;
+	top: -40px;
+}
+
+.l-btns{
+	width: 250px;
+	height: 35px;
+	padding-left: 50px;
+}
+
+.waiteInvoice,.invoiceManage
+
+{
+	display: none;
+}
+
+.radio_invoice{
+	margin: 35px 100px 0 0;
+}

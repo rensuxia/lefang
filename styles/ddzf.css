@@ -1,0 +1,118 @@
+.ddplay{
+	width: 1200px;
+	height: 650px;
+	margin: 20px auto;
+	border:1px solid #ccc;
+	border-radius: 6px;
+}
+.zf_bt{
+	width: 1200px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0px 1px 0px 1px #dedede;
+	background:#DEDEDE; 
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+	text-indent: 50px;
+}
+.dd_conent{
+	width: 1090px;
+	height: 600px;
+	margin:0 60px;
+	padding: 20px;
+	/*background:#f2f2f2;*/
+}
+.zfts{
+	height: 150px;
+	font-size: 26px;
+	text-align: center;
+	/*border:1px solid red;*/
+	line-height: 120px;
+}
+.zflist{
+	height:320px;
+	border:1px solid #ccc;
+	border-radius:0 6px 6px 6px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.xszf{
+	width: 150px;
+	height: 40px;
+	border:1px solid #ccc;
+	border-bottom: none;
+	position: absolute;
+	left: -1px;
+	top: -40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px 6px 0 0;
+}
+.ff{
+	position: absolute;
+	left: 0;
+	top: -1px;
+	display: block;
+	background: #fff;
+	width: 150px;
+	height:5px;
+	z-index: 1;
+}
+.zffs{
+	width: 150px;
+	margin-left: 10px;
+	margin-top:30px;
+	height: 46px;
+	/*line-height: 40px;*/
+	display: inline-block;
+	text-align: center;
+	/*border:1px solid #ccc;*/
+	/*border-radius: 6px;*/
+
+}
+.bank_list{
+	/*margin-top: 20px;*/
+}
+.top{
+	margin-bottom: 0;
+}
+.bank_list li{
+	float: left;
+}
+.bank_list li a{
+	width: 150px;
+	margin-top:15px;
+	margin-left: 15px;
+	height: 46px;
+	display: inline-block;
+	text-align: center;
+	/*border:1px solid #ccc;*/
+	/*border-radius: 6px;*/
+}
+.yfje{
+	width: 300px;
+	float: right;
+}
+.money{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 34px;
+	
+	
+}
+.pric{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color:red;
+	margin:0 20px;
+	line-height: 34px;
+}
+.btn_zf{
+	font-size: 14px;
+}
+

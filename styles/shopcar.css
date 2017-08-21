@@ -1,0 +1,168 @@
+.nav{
+	box-shadow:-3px 10px 20px rgba(0,0,0,0.2);
+	z-index:2;
+}
+.shopcar-des{
+	margin-top:40px;
+	width:100%;
+	min-width:1200px;
+	position:relative;
+}
+.shopcar-des-container{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+}
+.shopcar-des-container ul:after{
+	clear:both;
+	display:block;
+	content:"";
+}
+.shopcar-des-container ul li{
+	float:left;
+	width:13%;
+	color:#333;
+	font-size:13px;
+	height:40px;
+	line-height: 40px;
+}
+.shopcar-des-container ul li:first-of-type{
+	text-align:center;
+}
+.shopcar-des-container ul li:nth-of-type(2){
+	width:34%;
+	box-sizing:border-box;
+	margin-right:10px;
+}
+.shopcar-des-container ul li input,.shopcar-store input{
+	border:1px solid #ccc;
+	background:#fff;
+	width:15px;
+	height:15px;
+}
+.shopcar-des-type{
+	margin-bottom:20px;
+}
+.shopcar-order{
+	width:1100px;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.shopcar-order .shopcar-store{
+	width:1100px;
+	margin:0 auto;
+	padding-left:6px;
+	height:40px;
+	line-height: 40px;
+}
+.shopcar-order .shopcar-store a:hover{
+	color:#333;
+}
+.shopcar-des-container ul.shopcar-des-pro li{
+	height:auto;
+	line-height: 25px;
+	margin-top:20px;
+}
+.shopcar-des-container .shopcar-des-line{
+	border:2px solid #ccc;
+	height:auto;
+	padding-top:40px;
+}
+.shopcar-des-pro{
+	border:1px solid #ddd;
+	background:#fbfbfb;
+}
+.shopcar-des-pro li img{
+	width:100px;
+	height:100px;
+	vertical-align: top;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+}
+.shpcar-pro-des a{
+	display:inline-block;
+	width:212px;
+	padding-left:10px;
+	margin-right:38px;
+	line-height: 25px;
+}
+.shpcar-pro-des span{
+	display:inline-block;
+	color:#666;
+	line-height: 25px;
+}
+.shopcar-des-pro li del.pro-exp{
+	color:#666;
+}
+.shopcar-des-pro li span.pro-price{
+	font-weight:bold;
+}
+.shopcar-des-num strong{
+	width:15px;
+	height:30px;
+	line-height: 30px;
+	text-align:center;
+	display:inline-block;
+	border:1px solid #ccc;
+	background:#EFEFEF;
+	position:relative;
+	left:5px;
+	top:0px;
+	cursor:pointer;
+}
+.shopcar-des-num strong:last-of-type{
+	left:-5px;
+}
+.shopcar-des-num strong:hover{
+	color:#333;
+}
+.shopcar-des-num .shopnum{
+	border:1px solid #ccc;
+	display: inline-block;
+	height:30px;
+	line-height: 30px;
+	width:50px;
+	text-align:center;
+	position:relative;
+	top:-1px;
+}
+.shopcar-des-pro span.pro-money{
+	color:#FE582F;
+	font-weight:bold;
+}
+.shopcar-des-footer{
+	width:1100px;
+	margin:0 auto;
+	background:#E5E5E5;
+	height:50px;
+	line-height: 50px;
+}
+.shopcar-delete{
+	margin-left:20px;
+}
+.shopcar-flr .shopcar-textrf,
+.shopcar-flr .shopcar-textrt{
+	margin-right:30px;
+	font-size:13px;
+	color:#666;
+}
+.shopcar-flr .shopcar-textrf em,
+.shopcar-flr .shopcar-textrt em{
+	color:#FF4F18;
+	font-size:17px;
+	padding:0 4px;
+	font-weight:bold;
+}
+.shopcar-flr .shopcar-textrt em{
+	padding-left:8px;
+}
+.shopcar-flr .shopcar-textrs{
+	height:50px;
+	width:100px;
+	background:#B1B1B1;
+	color:#fff;
+	display:inline-block;
+	text-align:center;
+	line-height: 54px;
+	font-size:16px;
+}

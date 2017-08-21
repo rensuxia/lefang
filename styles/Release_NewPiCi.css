@@ -1,0 +1,80 @@
+.New_PiCi{
+  width: 936px;
+  min-height: 650px;
+  margin: 0 auto;
+}
+.New_PiCi .PiCi_header{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #787878;
+}
+.New_PiCi form label{
+  font-size: 16px;
+  margin: 10px 0 0 30px;
+}
+.New_PiCi form input.pici{
+  /*box-shadow:-3px 10px 20px rgba(0,0,0,0.3);*/
+  /*border-radius: 5px;*/
+  width: 180px;
+  height: 30px;
+  /*font-weight: bold;*/
+  font-size:16px;
+  margin: 20px 0 0 15px;
+}
+label.letter_spacing{
+  letter-spacing: 15px;
+}
+.New_PiCi form input.content{
+  /*box-shadow:-3px 10px 20px rgba(0,0,0,0.3);*/
+  width: 690px;
+  height:32px;
+  margin: 20px 0 0 15px;
+}
+.New_PiCi form select.ZhuZhi{
+  width:690px;
+  /*box-shadow:-3px 10px 20px rgba(0,0,0,0.3);*/
+  height:32px;
+  margin: 20px 0 0 15px;
+}
+.New_PiCi form b{
+  font-size:16px;
+  margin-left: 15px;
+}
+.New_PiCi form input.day{
+  /*box-shadow:-3px 10px 20px rgba(0,0,0,0.3);*/
+  width: 60px;
+  height:32px;
+  margin: 20px 0 0 15px;
+}
+p.border-bottom{
+  margin-top: 30px;
+  border-bottom: 2px solid #787878;
+  width: 920px;
+}
+div.last_btn{
+  width:300px;
+  margin: 30px auto;
+}
+div  button.tj_button{
+  width:200px;
+  height:40px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  background: #EB6100;
+  font-size: 26px;
+}
+/*div.last_btn span.star{*/
+  /*display: inline-block;*/
+  /*width: 25px;*/
+  /*height: 25px;*/
+  /*line-height: 23px;*/
+  /*background: #189FD9;*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+  /*position: relative;*/
+  /*left: -27px;*/
+  /*top: -30px;*/
+/*}*/

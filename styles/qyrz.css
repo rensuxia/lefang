@@ -1,0 +1,285 @@
+.qygl-right{
+	height:auto;
+}
+.qygl-right-top.qyrz-right-top h1{
+	font:700 16px 'Arial Negreta', 'Arial';
+	color:#666;
+	margin:20px 0px 10px 28px;
+}
+.qyrz-des{
+	width:751px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.qyrz-des .qyrz_img{
+    width: 89px;
+    height: 89px;
+}
+.qyrz-des .qyrz_img:hover{
+    width: 100%;
+    height: 100%;
+}
+.qyrz-des ul li{
+	width:100%;
+	margin-bottom:30px;
+}
+.qyrz-des ul li>span,.qyrz-xydm>span,.qyrz-zch>span{
+	float:left;
+	color:#666;
+	font-size:14px;
+	width:140px;
+	height:20px;
+	text-align: right;
+	margin-right:20px;
+}
+.qyrz-des ul li:after{
+	clear:both;
+	content:"";
+	display:block;
+}
+.qyrz-des ul li>span em,.qyrz-xydm>span em,.qyrz-zch>span em{
+	color:red;
+	padding-right:3px;
+}
+.qyrz-bl{
+	color:#333;
+}
+.qyrz-des ul li>p,.qyrz-xydm>p,.qyrz-zch>p,.qyrz-rzsq{
+	float:left;
+	width:335px;
+	font-size: 14px;
+	color:#666;
+}
+.qyrz-des ul li:nth-of-type(2)>p,.qyrz-rzsq{
+	width:480px;
+}
+.qyrz-des ul li strong{
+	color:red;
+}
+/*.qyrz-des .qyrz-alignC{
+	text-align: center;
+}*/
+.qyrz-des ul li:not(:nth-child(2))>p input,.qyrz-xydm>p input,.qyrz-zch>p input{
+	width:310px;
+	height:30px;
+	border-radius:5px;
+	outline:none;
+	border:1px solid #bbb;
+	padding-left:5px;
+}
+.qyrz-des .qyrz-bl{
+	color:#333;
+}
+.qyrz-des .qyrz-bl input{
+	margin-bottom:8px;
+}
+.qyrz-des .qyrz-yzimg{
+	/*display:inline-block;*/
+	/*width:84px;*/
+	float:left;
+	text-align: center;
+	margin-right:14px;
+	color:#333;
+}
+.qyrz-des .qyrz-yzimg img:hover{
+    width: 100%;
+    height: 100%;
+}
+.qyrz-des .qyrz-disB{
+	display: block;
+	padding:2px 0;
+	color:#bbb;
+}
+.qyrz-des ul li:not(:nth-child(2))>p .qyrz-yzfile,
+.qyrz-des ul li:not(:nth-child(2)) .qyrz-yzfile,
+.qyrz-des ul li:not(:nth-child(2))>p .qyrz-yzfilet,
+.qyrz-des ul li:not(:nth-child(2)) .qyrz-yzfilet{
+	width:72px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	border:none;
+	background:blue;
+	display:none;
+}
+.qyrz-des ul li:not(:nth-child(2))>p .qyrz-yzfilebtn
+,.qyrz-des ul li:not(:nth-child(2)) .qyrz-yzfilebtn,
+.qyrz-des ul li:not(:nth-child(2))>p .qyrz-yzfilebtnT
+,.qyrz-des ul li:not(:nth-child(2)) .qyrz-yzfilebtnT{
+	margin-top:8px;
+	width:90px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #428BCA;
+	border-radius: 5px;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+}
+/*.qyrz-ibot-col{*/
+	/*color:#ccc;*/
+	/*padding-left:8px;*/
+/*}*/
+.qyrz-city select{
+	width:144px;
+	height:30px;
+	padding:5px;
+	margin-right:18px;
+	color:#666;
+}
+.qyrz-des ul li:not(:nth-child(2))>p.qyrz-alignC input{
+	width:auto;
+	height:auto;
+	vertical-align: middle;
+	margin-top:0px;
+}
+.qyrz-des .qyrz-rzsq .qyrz-rzsq-left{
+	color:#333;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.qyrz-rzsq-right p{
+	color:#ccc;
+}
+.qyrz-rzsq-right p.qyrz-rzsq-col{
+	color:#333;
+	font-weight:700;
+}
+.qyrz-rzsq-right p.qyrz-rzsq-col span,.qyrz-alignC a{
+	color:#62C2FF;
+}
+/*点击下载认证授权书的链接的字体颜色*/
+#down{
+    cursor: pointer;
+    color: #f60;
+}
+#down_detail{
+    cursor: pointer;
+    color: #f60;
+}
+.qyrz-tjsh a{
+	width:94px;
+	height:40px;
+	background:#093;
+	color:#fff;
+	text-align: center;
+	line-height: 40px;
+	display:inline-block;
+	border-radius:5px;
+    font-size: 15px;
+}
+/*上传文件框架 */
+.uploadFile-all,.uploadFile-allT{
+	width:100%;
+	min-width:1200px;
+	height:100%;
+	position:fixed;
+	z-index:999;
+	left:0;
+	top:0;
+}
+.uploadFile-all .qyrz_upload,.uploadFile-allT .qyrz_upload{
+    position: relative;
+}
+.uploadFile-all .qyrz_upload span,.uploadFile-allT .qyrz_upload span{
+    padding: 5px;
+    color:red;
+    background-color: #fff;
+    z-index:10000;
+    position: absolute;
+    right: 537px;
+    top: 120px;
+}
+.uploadFile-all .qyrz_upload iframe,.uploadFile-allT .qyrz_upload iframe{
+    width: 666px;
+    height: 500px;
+    position: absolute;
+    top: 495px;
+    left: 1200px;
+}
+.ret-uploadF{
+	width:1000px;
+	height:704px;
+	/*min-height:350px;*/
+	z-index:1000;
+	background:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-500px;
+	margin-top:-350px;
+}
+.uploadFile-all .motaik,.uploadFile-allT .motaik{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.7);
+	z-index:999;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+/*注册资本的输入框*/
+.qygl-right-con .qyrz-des .registeredCapital{
+    width: 250px;
+}
+.qygl-right-con .qyrz-des .registeredCapitalText{
+    font-size: 20px;
+}
+/*企业认证*/
+.qygl-right-con .qyrz-des .qyrz_select{
+    width: 310px;
+    height: 30px;
+    border-radius: 5px;
+}
+.qygl-right-con .qyrz-des .product_range{
+    min-width: 400px;
+    height: 30px;
+ }
+.qygl-right-con .qyrz-des .product_range input{
+    width: 20px;
+}
+.qygl-right-con .qyrz-des .product_range label{
+    font-size: 15px;
+    height: 40px;
+    vertical-align: middle;
+}
+/*商业模式*/
+.qygl-right-con .qyrz-des .commercial_model{
+    width: 570px;
+    height: 30px;
+}
+.qygl-right-con .qyrz-des .commercial_model input{
+    width: 20px;
+}
+.qygl-right-con .qyrz-des .commercial_model label{
+    font-size: 15px;
+    height: 40px;
+    vertical-align: middle;
+}
+.qygl-right-con .qyrz-des .qyrz_p{
+    font-weight: bold;
+    width: 100%;
+}
+.qygl-right-con .qyrz-des .qyrz_list li{
+    width: 100%;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 160px;
+}
+
+
+/*认证输入框的正确和错误显示的图案*/
+.qygl-right-con .qyrz-des .qyrz_smile{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    /*background: url("../scripts/skin/default/icon.png") 30px 0;*/
+}
+
+.qygl-right-con .qyrz-des .model-commercial{
+    width: 851px;
+}

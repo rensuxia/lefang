@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>订单</title>
+
+  <link rel="icon" href="images/icon/favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbuild -->
+
+  <!-- build:css styles/order.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/order.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <div id="lefangtex_top"></div>
+  <div id="lefangtex_nav"></div>
+  <div id="lefangtex_order"></div>
+      <div class="foot_bg">
+            <div class="foot">
+                <ul class="ft_list">
+                    <li><a href="index.html">乐纺官网</a></li>
+                    <li><a href="fzzx.html">关于乐纺</a></li>
+                    <li><a href="fzzx.html">法律政策</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="fzzx.html">联系我们</a></li>
+                    <li><a href="javascript:;">在线客服(每日8：30-20：00)</a></li>
+                    <li><a href="fzzx.html">加入我们</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="javascript:;">微信公众号</a></li>
+                    <li><a href="javascript:;" class="erwm">
+                        <img src="./images/pic/QR.png" alt="">
+                        </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="copyright_bg">
+            <div class="copyright">
+                <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                <span> 苏ICP备16243357号-1</span>
+                <span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+                <script>
+                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+            </div>
+        </div>
+
+  <!-- </div> -->
+
+  <!-- example template -->
+
+    <!-- top nav start -->
+      <script type="milkt/template" id="lefang_top">
+        <!-- top nav start -->
+        <div class="top_nav">
+          <div class="top_nav_container clearfix">
+            <div class="top_nav_left right">
+              <!--<a href="javascript:;" class="top_nav_mobile">
+                  <i><img src="images/icon/ico_mobile.png" alt=""></i>
+                  手机端
+              </a>-->
+              <a href="javascript:;">
+                <i><img src="images/icon/ico_phone.png" alt=""></i>
+                <span>客服热线:</span>
+                0510-83560008
+                <span>( 8:30-20:00 )</span>
+              </a>
+            </div>
+            <div class="top_nav_right left">
+              <a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+              <a href="login.html" class="top_nav_login">登录</a>
+              <a href="register.html" class="top_nav_regist">注册</a>
+            </div>
+          </div>
+        </div>
+        <!-- top nav end -->
+      </script>
+    <!-- top nav end -->
+
+
+    <!--main nav start-->
+        <script type="milkt/template" id="lefang_nav">
+            <!--main nav start-->
+                <div class="main_nav">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li class="active">
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav end-->
+        </script>
+    <!--main nav end-->
+
+    <!--main nav_suspend start-->
+           <script type="milkt/template" id="lefang_nav_suspend">
+            <!--main nav suspend start-->
+                <div class="main_nav_suspend">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li >
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav suspend end-->
+        </script>
+    <!--main nav end-->
+
+    <!--order start-->
+      <script type="milkt/template" id="lefang_order">
+        <!--order start-->
+        <div class="shopcart">
+          <div class="shopcart_container">
+            <div class="shopcart_top clearfix">
+              <div class="shopcart_logo left">
+                <a href="javascript:;">
+                    <img src="images/icon/购物车.jpg" alt="">
+                  </a>
+              </div>
+              <div class="shopcart_step right">
+                <ul class="clearfix">
+                  <li class="active">
+                    <span>查看购物车</span>
+                    <img src="images/icon/step_point1.png" alt="" />
+                    <span>STEP 1</span>
+                  </li>
+                  <li class="step_xian">
+                    <span>
+                          <img src="images/icon/arrow_a.png" alt="">
+                      </span>
+                    <strong class="s-color"></strong>
+                  </li>
+                  <li class="active">
+                    <span class="f-color">确认商品</span>
+                    <img src="images/icon/step_point1.png" alt="" />
+                    <span class="f-color">STEP 2</span>
+                  </li>
+                  <li class="step_xian">
+                    <span>
+                          <img src="images/icon/arrow_a.png" alt="">
+                      </span>
+                    <strong></strong>
+                  </li>
+                  <li>
+                    <span>提交订单</span>
+                    <img src="images/icon/step_point1.png" alt="" />
+                    <span>STEP 3</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="shopcart_list">
+              <!--大货-->
+              <div class="shopcart_dh_list">
+                 <ul class="clearfix shopcart_type">
+                  <li>
+                    大货订单
+                  </li>
+                </ul> 
+                <p>
+                  <span class="shopcart_list_info">商品信息</span>
+                  <span class="shopcart_list_price">单价</span>
+                  <span class="shopcart_list_count"> 数量</span>
+                  <span class="shopcart_list_money"> 金额（元）</span>
+                </p>
+                <!-- <div class="shopcar-order-des">
+                  <div class="order_company">
+                     <ul class="company_icon">
+                      <li>
+                        <img src="images/icon/company_icon.png" alt="">
+                      </li>
+                    </ul> 
+                    <ul class="clearfix">
+                      <li>
+                        <img src="images/icon/check.png" alt="">
+                        <a href="javascript:;">
+                            <img src="images/pic/GREY (1).png" alt="">
+                          </a>
+                      </li>
+                      <li class="shopcart_name">
+                        <a href="javascript:;">
+                            竹节纯棉布全棉单层加厚纱布
+                          </a>
+                      </li>
+                      <li class="shopcart_price">
+                        <em>￥33.00</em><em>/</em><em>码</em>
+                      </li>
+                      <li class="shopcart_num">
+                        <a href="javascript:;">-</a>
+                        <span>10</span>
+                        <a href="javascript:;">+</a>
+                      </li>
+                      <li class="shopcart_totalprice">
+                        <span>￥330</span>
+                      </li>
+                    </ul>
+                    <ul class="clearfix">
+                      <li class="shopcart_img">
+                        <a href="javascript:;">
+                            <img src="images/pic/GREY (2).png" alt="">
+                          </a>
+                      </li>
+                      <li class="shopcart_name">
+                        <a href="javascript:;">
+                            竹节纯棉布全棉单层加厚纱布
+                          </a>
+                      </li>
+                      <li class="shopcart_price">
+                        <em>￥80.00</em><em>/</em><em>码</em>
+                      </li>
+                      <li class="shopcart_num">
+                        <a href="javascript:;">-</a>
+                        <span>2</span>
+                        <a href="javascript:;">+</a>
+                      </li>
+                      <li class="shopcart_totalprice">
+                        <span>￥160</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>  -->
+              </div>
+
+
+              <!--收货信息-->
+
+              <div class="add-detail">
+                <div class="lefangtex-gwqd">
+                  <div class="shopcart_sh_list">
+                    <ul class="clearfix shopcart_type">
+                      <li>
+                        收货信息
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="receive-address">
+                    <div>
+                      收货地址：
+                      <a href="newAddress.html" class="new-address">[使用新地址]</a>
+                    </div>
+                    <div class="clearfix address-list-all">
+                      <!-- <div class="choice-address left">
+                        <a href="javascript:;">
+                            <span> 胡丹 </span> <br/>
+                            <span>江苏省苏州市吴中区国际科技园二期B304</span><br/>
+                            <span> 18006249284 </span><br/>
+                          </a>
+                        <img src="images/icon/address_check_on.png" alt="">
+                      </div>
+                      <div class="choice-address left">
+                        <a href="javascript:;">
+                          <span> 胡丹 </span> <br/>
+                          <span>江苏省苏州市吴中区国际科技园二期B304</span><br/>
+                          <span> 18006249284 </span><br/>
+                        </a>
+                        <img src="images/icon/address_check.png" alt="">
+                      </div>
+                      <div class="choice-address left">
+                        <a href="javascript:;">
+                          <span> 胡丹 </span> <br/>
+                          <span>江苏省苏州市吴中区国际科技园二期B304</span><br/>
+                          <span> 18006249284 </span><br/>
+                        </a>
+                        <img src="images/icon/address_check.png" alt="">
+                      </div>
+                      <div class="choice-address left">
+                        <a href="javascript:;">
+                          <span> 胡丹 </span> <br/>
+                          <span>江苏省苏州市吴中区国际科技园 二期B304</span><br/>
+                          <span> 18006249284 </span><br/>
+                        </a>
+                        <img src="images/icon/address_check.png" alt="">
+                      </div> -->
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lefangtex-shxx">
+
+              <div class="shopcart_order clearfix">
+                <div class="right">
+                  <span>
+                      <!--<img src="images/icon/confirm.png" alt="">-->
+                      您已选<em class="totalNums">12</em>件商品 &nbsp;&nbsp;&nbsp;商品总价：<em class="pro_Total_Price">0</em>
+                  </span>
+                  <!-- <span>
+                      运费 金额 : <em>￥0</em>
+                  </span> -->
+                  <span>
+                      <strong>需要支付：<em class="need_payFor">￥0</em></strong>
+                  </span>
+                </div>
+              </div>
+
+              <!--确认购买-->
+              <div class="shopcart_true_buy">
+                <!-- <div class="left">
+                  <em>提示 ：请在大货订单前面购买样品！</em>
+                  <a href="javascript:;">购买样品</a>
+                </div> -->
+                <a href="javascript:;" class="cost-sub-order">提交订单 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--order end-->
+
+        <!-- alert start  -->
+        <div class="alert_squre">
+          <div class="greyHalf">
+
+          </div>
+          <div class="squre_orderSu">
+            <h2>提交订单成功</h2>
+            <p>
+              为保障您的合法权益，乐坊网平台希望您能与供货商签订线上合同！
+              您也可以签订线下合同，如若签订线下合同。请务必与供货商沟通详细，
+              合同一旦生成请及时上传合同样本！
+            </p>
+            <a href="javascript:;">我知道了</a>
+          </div>
+        </div>
+        <!-- alert end  -->
+      </script>
+    <!--order end-->
+
+
+    <!-- foot start-->
+        <script type="milkt/template" id="lefang_foot">
+            <!-- foot start-->
+                <div class="foot_bg">
+                    <div class="foot">
+                        <ul class="ft_list">
+                            <li><a href="#">乐纺官网</a></li>
+                            <li><a href="#">关于乐纺</a></li>
+                            <li><a href="#">法律政策</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">在线客服(每日8：30-20：00)</a></li>
+                            <li><a href="#">加入我们</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#" class="erwm"></a></li>
+                            <!-- <img src="./images/QR.png" alt=""> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright_bg">
+                    <div class="copyright">
+                        <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                        <span> 苏ICP备16243357号-1</span>
+                        <span>江苏中添纺织科技有限公司版权所有</span>
+                    </div>
+                </div>
+            <!-- foot end-->
+        </script>
+    <!-- foot end-->
+
+
+
+
+
+  <!-- build:js scripts/vendor.js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/lodash/lodash.js"></script>
+  <script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+  <script src="/bower_components/store/dist/store.everything.min.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/order.js -->
+  <!--<script src="scripts/api/fq.getItemInfo.js"></script>-->
+  <script src="scripts/api/userdologin.js"></script>
+  <script src="scripts/api/userregister.js"></script>
+  <script src="scripts/api/userregister.js"></script>
+  <script src="scripts/api/homepagePI.js"></script>
+  <script src="scripts/api/productCGmain.js"></script>
+  <!--<script src="scripts/api/shopCart.js"></script>-->
+  <script src="scripts/api/shopCartQOrder.js"></script>
+  <script src="scripts/api/orderSave.js"></script>
+  <script src="scripts/api/address.js"></script>
+  <script src="scripts/api/shopcartRO.js"></script>
+  <script src="scripts/api/shopcart_nums.js"></script>
+  <script src="scripts/api/homepageYarn.js"></script>
+  <script src="scripts/api/feedbackfrom.js"></script>
+  <script src="scripts/api/productCGmain.js"></script>
+   <script src="scripts/api/enterpriseQPrise.js"></script>   
+
+  <script src="scripts/util.js"></script>
+  <script src="scripts/index.js"></script>
+   <script src="scripts/enterQPapply.js"></script>   
+  <script src="scripts/order.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商家商品展示</title>
+		<link rel="icon" href="images/icon/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
+
+		<!-- build:css styles/vendor.css -->
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbuild -->
+
+		<!-- build:css styles/product_display.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/base.css">
+		<link rel="stylesheet" href="styles/product_display.css">
+		<!-- endbuild -->
+
+		<!-- build:js scripts/vendor/modernizr.js -->
+		<script src="/bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+
+	</head>
+
+	<body>
+		<!-- <div class="container"> -->
+		<div id="lefangtex_top"></div>
+		<div id="lefangtex_nav"></div>
+		<div id="lefangtex_nav_suspend"></div>
+		<div id="lefangtex_conent">
+    </div>
+		<div class="foot_bg">
+			<div class="foot">
+				<ul class="ft_list">
+					<li>
+						<a href="index.html">乐纺官网</a>
+					</li>
+					<li>
+						<a href="fzzx.html">关于乐纺</a>
+					</li>
+					<li>
+						<a href="fzzx.html">法律政策</a>
+					</li>
+				</ul>
+				<ul class="ft_list">
+					<li>
+						<a href="fzzx.html">联系我们</a>
+					</li>
+					<li>
+						<a href="javascript:;">在线客服(每日8：30-20：00)</a>
+					</li>
+					<li>
+						<a href="fzzx.html">加入我们</a>
+					</li>
+				</ul>
+				<ul class="ft_list">
+					<li>
+						<a href="javascript:;">微信公众号</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="erwm">
+							<img src="./images/pic/QR.png" alt="">
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="copyright_bg">
+			<div class="copyright">
+				<span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+				<span> 苏ICP备16243357号-1</span>
+				<span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+				<script>
+					var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+					document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+			</div>
+		</div>
+		<!-- </div> -->
+
+		<!-- top nav start -->
+		<script type="milkt/template" id="lefang_top">
+			<!-- top nav start -->
+			<div class="top_nav">
+				<div class="top_nav_container clearfix">
+					<div class="top_nav_left right">
+						<!--<a href="javascript:;" class="top_nav_mobile">
+                                <i><img src="images/icon/ico_mobile.png" alt=""></i>
+                                手机端
+                            </a>-->
+						<a href="javascript:;">
+							<i><img src="images/icon/ico_phone.png" alt=""></i>
+							<span>客服热线:</span> 0510-83560008
+							<span>( 8:30-20:00 )</span>
+						</a>
+					</div>
+					<div class="top_nav_right left">
+						<a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+						<a href="login.html" class="top_nav_login">登录</a>
+						<a href="register.html" class="top_nav_regist">注册</a>
+					</div>
+				</div>
+			</div>
+			<!-- top nav end -->
+		</script>
+		<!-- top nav end -->
+
+	<!--main nav start-->
+        <script type="milkt/template" id="lefang_nav">
+            <!--main nav start-->
+                <div class="main_nav">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li class="active">
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav end-->
+        </script>
+    <!--main nav end-->
+
+    <!--main nav_suspend start-->
+           <script type="milkt/template" id="lefang_nav_suspend">
+            <!--main nav suspend start-->
+                <div class="main_nav_suspend">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li >
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav suspend end-->
+        </script>
+    <!--main nav end-->
+
+		<!-- main product_display start -->
+		<script type="milkt/template" id="lefang_content">
+			<div class="dqwz">
+				<span class="icon_sy"><img src="./images/icon/icoc_sy.png" alt=""></span>
+				<span>当前位置：</span>
+				<a href="product_display.html"> 商家商品列表&nbsp </a>
+				<!--<span>>&nbsp </span>-->
+				<!--<a href="yarn.html" class="active"> 纱线 </a>-->
+				<!--<span class="dq_up ">-->
+				<!--收起/展开筛选条件-->
+				<!--<img src="./images/icon/arrow_sq.png " style="width: 10px;" alt="">-->
+				</span>
+			</div>
+			<div class="pro_box">
+				<div class="content clearfix left">
+          <ul class="pro_title">
+            <li class="sx_bt">
+              <a href="#" >品名</a>
+              <a href="#">原料</a>
+              <a href="#">纱支</a>
+              <a href="#" style="">密度</a>
+              <a href="#" style="">幅宽 </a>
+              <a href="#" style="">价格</a>
+              <a href="#" class="create_time">发布时间</a>
+              <a href="#" class="batch">批次编号</a>
+              <a href="#" style="width: 118px">操作</a>
+            </li>
+          </ul>
+					<ul class="pro_list" id="aaa">
+            <!--<p style="font-size: 32px;color: #e4393c;text-align: center;display: none;">抱歉，您当前没有产品可以展示</p>-->
+					</ul>
+
+				</div>
+        <div class="sj_pro clearfix right">
+          <div>
+            <p>商家基本信息</p>
+            <p class="bname"><%= company_name%></p>
+            <ul id="info">
+              <li>
+                <span class="contact">联系人：</span>
+                <span><%= legalperson%></span>
+              </li>
+              <li>
+                <span>联系电话：</span>
+                <span><%= userid %></span>
+              </li>
+              <li id="Pppp">
+                <span>所在地区：</span>
+                <span></span>
+              </li>
+            </ul>
+            <p class="abstract">
+              该企业是乐纺网的合作企业，联系时请说是在乐纺网上看到的，该企业会自动给予优惠价格。
+            </p>
+          </div>
+        </div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div class="page" >
+				<p>
+          <input type="hidden" id="current_page" value="1" style="width: 30px;height: 20px;">
+          <input type="hidden" id="show_per_page" value="5" style="width: 30px;height: 20px;">
+        </p>
+        <div id="page_navigation">
+          <ul id="pag">
+            <!--<li class="current">-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li class="next">-->
+              <!--<a href="">1</a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="">-->
+            <!--跳到第-->
+            <!--<input type="text" value="">-->
+            <!--页-->
+            <!--<a href="#">确定</a>-->
+              <!--</a>-->
+            <!--</li>-->
+          </ul>
+        </div>
+
+			</div>
+		</script>
+		<!--main product_display end -->
+
+		<!-- foot start-->
+		<script type="milkt/template" id="lefang_foot">
+			<!-- foot start-->
+			<div class="foot_bg">
+				<div class="foot">
+					<ul class="ft_list">
+						<li>
+							<a href="#">乐纺官网</a>
+						</li>
+						<li>
+							<a href="#">关于乐纺</a>
+						</li>
+						<li>
+							<a href="#">法律政策</a>
+						</li>
+					</ul>
+					<ul class="ft_list">
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+						<li>
+							<a href="#">在线客服(每日8：30-20：00)</a>
+						</li>
+						<li>
+							<a href="#">加入我们</a>
+						</li>
+					</ul>
+					<ul class="ft_list">
+						<li>
+							<a href="#">微信公众号</a>
+						</li>
+						<li>
+							<a href="#" class="erwm"></a>
+						</li>
+						<!-- <img src="./images/QR.png" alt=""> -->
+					</ul>
+				</div>
+			</div>
+			<div class="copyright_bg">
+				<div class="copyright">
+					<span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+					<span> 苏ICP备16243357号-1</span>
+					<span>江苏中添纺织科技有限公司版权所有</span>
+				</div>
+			</div>
+			<!-- foot end-->
+		</script>
+		<!-- foot end-->
+
+		<!-- build:js scripts/vendor.js -->
+		<script src="/bower_components/jquery/dist/jquery.js"></script>
+
+		<script src="/bower_components/modernizr/modernizr.js"></script>
+		<script src="/bower_components/lodash/lodash.js"></script>
+		<script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+		<script src="/bower_components/store/dist/store.everything.min.js"></script>
+		<!-- endbuild -->
+
+		<!-- build:js scripts/product_display.js -->
+		<script src="scripts/api/homepagePI.js"></script>
+		<script src="scripts/api/shopcart_nums.js"></script>
+    <script src="scripts/api/advertInfo.js"></script>
+		<script src="scripts/api/homepageYarn.js"></script>
+    <script src="scripts/api/homeYarnCategory.js"></script>
+    <script src="scripts/api/productCGmain.js"></script>
+    <script src="scripts/api/product_display.js"></script>
+    <script src="scripts/api/city.js"></script>
+
+    <script src="scripts/product_display.js"></script>
+		<script src="scripts/util.js"></script>
+		<script src="scripts/index.js"></script>
+		<script src="scripts/main.js"></script>
+
+		<!-- endbuild -->
+	</body>
+
+</html>

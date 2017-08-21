@@ -1,0 +1,34 @@
+.zf_cg{
+    width: 1200px;
+    margin:0 auto;
+    height: 500px;
+    text-align: center;
+}
+.cg_bt{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding:50px 0;
+}
+.cg_zf{
+    width: 350px;
+}
+.red{
+    color:red;
+    padding-top: 15px;
+}
+
+.tit{
+    font-size: 21px;
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.r_add{
+    background-color: rgb(235,96,0) !important;
+    color: white !important;
+}
+.r_add:hover{
+    color: white;
+}

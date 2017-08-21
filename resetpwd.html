@@ -1,0 +1,231 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>重置密码</title>
+
+   <link rel="icon" href="images/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbuild -->
+
+    <!-- build:css styles/resetpwd.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/registers.css">
+    <link rel="stylesheet" href="styles/resetpwd.css">
+    <!--<link rel="stylesheet" href="styles/resetpwd.css">-->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+      <div class="nav-regist">
+        <div class="nav-container">
+          <div class="clearfix">
+            <div class="nav-logo left">
+              <a href="javascript:;">
+                <img src="images/icon/logo.png" alt="">
+              </a>
+              <span>
+                乐纺重置密码
+              </span>
+            </div>
+            <div class="nav_hsaccount right">
+              <span>已有账号,</span>
+              <a href="login.html">马上登录</a>
+              <em>|</em>
+              <a href="index.html">乐纺首页</a>
+            </div>
+          </div>
+          <div id="lefangtex-resetmphone"></div>
+          <div id="lefangtex-resetpwd"></div>
+          <div id="lefangtex-resetsuccess"></div>
+          <div id="lefangtex-nav-main-foot"></div>
+        </div>
+      </div>     
+    <!-- </div> -->
+
+    <!-- example template -->
+
+
+
+
+      <script type="milkt/template" id='lefang-resetmphone'>
+        <div class="nav-main one-type reset-fir">
+          <div class="nav-main-top">
+            <img src="images/icon/step1.png" alt="">
+            <span class="nav-main-step1 active">01 验证手机号</span>
+            <span class="nav-main-step2">02 重置密码</span>
+            <span class="nav-main-step3">03 重置成功</span>
+          </div>
+          <div class="nav-main-reg">
+    
+            <ul class="clearfix">
+              <li class="tupianimg textLeft">
+                <input type="text" placeholder="手机号码" id="rephone" value="">
+                <span></span>
+              </li>
+              <li class="clearfix tupianimg">
+                <p>
+                  <input type="text" placeholder="图片验证码" value="" id="resetval">
+                </p>
+                <div class="reg-yzm">
+                  <span>
+                    <a href="javascript:;"  id="resetcode">
+                          
+                    </a>
+                  </span>
+                  <span class="reg-yzm-msg reg-yzm-sucess hide">
+                    <em>
+                      <!--<img src="images/u1670.png" alt="">-->
+                    </em>
+                    验证码发送成功
+                  </span>
+                  <span class="reg-yzm-msg reg-yzm-fault hide">
+                    <em>
+                      <!--<img src="images/u1672.png" alt="">-->
+                    </em>
+                    短信验证码失败
+                  </span>
+                </div>
+                <span></span>
+              </li>
+              <li class="clearfix tupianimg">
+                <p>
+                  <input type="text" placeholder="验证码" id="redxyzm" value="">
+                </p>
+                <div class="reg-send-yzm">
+                  <span class="reseconds">20</span>
+                  <em>秒</em>
+                  <a href="javascript:;" class="reset-get-code">发送短信验证码</a>
+                </div>
+              </li>
+              <li class="nav-sub tupianimg reset-next-type">
+                <a href="javascript:;">
+                  <input type="submit" class='next-type' value="下一步">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </script>
+  
+    
+
+      <script type="milkt/template" id='lefang-resetpwd'>
+        <div class="nav-main two-type reset-sec">
+          <div class="nav-main-top">
+            <img src="images/icon/step2.png" alt="">
+            <span class="nav-main-step1">01 验证手机号</span>
+            <span class="nav-main-step2 active">02 重置密码</span>
+            <span class="nav-main-step3">03 重置成功</span>
+          </div>
+          <div class="nav-main-reg">
+            <ul class="clearfix">
+              <li>
+                <input type="password" placeholder="请输入新密码" id="renewse" value="">
+                <span></span>
+              </li>
+              <li class="clearfix">
+                <input type="password" id="renewsere" placeholder="请再次输入新密码" value="">
+                <span></span>
+              </li>
+              <li class="nav-sub reset-next-type">
+                <a href="#" class="reg_return resec-true">
+                  <input type="submit" value="确定" class="reg-btn">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </script>
+
+      <script type="milkt/template" id='lefang-resetsuccess'>
+        <div class="nav-main three-type reset-thir">
+          <div class="nav-main-top">
+            <img src="images/icon/step3.png" alt="">
+            <span class="nav-main-step1">01 验证手机号</span>
+            <span class="nav-main-step2">02 重置密码</span>
+            <span class="nav-main-step3 active">03 重置成功</span>
+          </div>
+          <div class="reset-onetype reset-threetype nav-main-reg">
+            <ul>
+              <li>
+                <img src="images/icon/true_regist.png" alt="">
+              </li>
+              <li>
+                <h1>您的密码已经重置成功!</h1>
+              </li>
+              <li class="djstz">
+                <em>3</em>
+                秒后系统自动跳转
+              </li>
+              <li>
+                <a href="javascript:;" class="tzindex">返 回</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </script>
+
+  
+      <script type="milkt/template" id="lefang-nav-main-foot">
+        <div class="nav_main_footer">
+          <p>
+            <a href="javascript:;">关于乐纺</a>
+            <span>联系我们 : <em>在线客服(每日8:30-20:00)</em></span>
+          </p>
+          <div class="copyright">
+              <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+              <span> 苏ICP备16243357号-1</span>
+              <span>江苏中添纺织科技有限公司版权所有</span>
+          </div>
+        </div>
+      </script>
+
+    
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+    <script src="/bower_components/store/dist/store.everything.min.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/resetpwd.js -->
+    <script src="scripts/api/fq.getItemInfo.js"></script>
+    <script src="scripts/api/userdologin.js"></script>
+    <script src="scripts/api/userregister.js"></script>
+    <script src="scripts/api/smssend.js"></script>
+    <script src="scripts/api/homepagePI.js"></script>
+    <script src="scripts/api/userPN.js"></script>
+    <script src="scripts/api/userfindcode.js"></script>
+    <script src="scripts/api/shopcart_nums.js"></script>
+    <script src="scripts/api/homepageYarn.js"></script>
+    <script src="scripts/api/feedbackfrom.js"></script>
+    <script src="scripts/api/productCGmain.js"></script>
+
+
+
+    <script src="scripts/util.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/resetpwd.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  
+  </body>
+</html>

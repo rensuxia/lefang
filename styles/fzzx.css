@@ -1,0 +1,654 @@
+.fzzx{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    text-align: center;
+    /*margin-top:40px;*/
+    padding-top: 30px;
+    background:#f2f2f2;
+}
+.fzzx .left{float:left;}
+.fzzx .right{float:right;}
+.fzzx .clearfix{clear:both;}
+.fzzx a{
+  text-decoration: none;
+  color: #000;
+  background: rgb(255,255,255);
+  padding: 0;
+  margin: 0;
+}
+.fzzx-container{
+    width:1000px;
+    margin:0 auto;
+    position:relative;
+    padding-bottom:40px;
+}
+/*左边列表*/
+.fzzx .fzzx-left{
+    width: 160px;
+    margin: 0 auto;
+}
+.fzzx .fzzx-left .fzzx-zjlfw:first-of-type{
+    min-height: 250px;
+}
+.fzzx .fzzx-left p{
+    cursor: pointer;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    line-height: 45px;
+    border-bottom: 1px solid #eee;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+.fzzx .fzzx-left ul{
+    margin: 0;
+  list-style: none;
+}
+.fzzx .fzzx-left ul li{
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-left ul li.about,.fzzx .fzzx-left ul li.top-line{
+    border-top: none;
+}
+.fzzx .fzzx-left ul li.fz-knowedge{
+    border-bottom: 1px solid #eee;
+}
+.fzzx .fzzx-left ul li:not(:first-of-type) a:hover{
+    color:#FF6600;
+}
+.fzzx .fzzx-container .fzzx-left ul li a{
+    font-size: 17px;
+}
+.fzzx .fzzx-container .fzzx-left ul li.active{
+    border-right: none;
+}
+.fzzx .fzzx-container .fzzx-left ul li.active a{
+    color:#FF6600;
+}
+/*右边列表*/
+/*隐藏块级元素*/
+.fzzx .fzzx-zjlfw-right>div{
+    display: none;
+}
+.fzzx .fzzx-zjlfw-right>div:first-of-type{
+    display: block;
+}
+.fzzx .fzzx-fzzx-right>div{
+    display: none;
+}
+
+.fzzx .fzzx-zjlfw-right{
+    width: 800px;
+}
+/*右边走进乐纺网列表*/
+/*走进乐纺网---关于我们*/
+.fzzx .fzzx-zjlfw-right .about-us{
+    width: 800px;
+    min-height: 1000px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .about-us>p{
+    padding: 14px 0;
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-zjlfw-right .about-us>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -28px;
+}
+.fzzx .fzzx-zjlfw-right .about-us>div{
+    height: 500px;
+    text-align: left;
+    padding: 15px;
+}
+.fzzx .fzzx-zjlfw-right .about-us>div p{
+    text-indent: 2em;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.fzzx .fzzx-zjlfw-right .about-us>div p:last-of-type{
+    /*height: 400px;*/
+}
+.fzzx .fzzx-zjlfw-right .about-us>div p img{
+    height: 350px;
+    margin: 20px 0 20px 140px;
+}
+/*走进乐纺网--公司动态*/
+.fzzx .fzzx-zjlfw-right .fzzx-list ul{
+    background: rgb(255,255,255);
+    width: 800px;
+    min-height: 244px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list ul li{
+    border-bottom: 1px solid #ddd;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list>p{
+    /*border-bottom: 2px solid #797979;*/
+    width: 800px;
+    padding: 14px 0;
+    font-size: 15px;
+    border-left: none;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list>p:nth-child(2){
+    text-align: center;
+    width: 750px;
+    border-bottom: 1px solid #797979;
+    margin-left: 25px;
+    margin-top: -27px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list>p>span{
+    margin-right: 20px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list>p>span span{
+    background: rgb(255,255,255);
+}
+
+.fzzx .fzzx-zjlfw-right .fzzx-list-left{
+    width: 150px;
+    height: 128px;
+    border: 1px solid #f60;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list-left img{
+    width: 100%;
+    height: 100%;
+}
+/**
+公司动态图片的翻转
+*/
+
+.fzzx .fzzx-list{
+    width: 800px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-list ul li>div{
+    position: relative;
+}
+/*.fzzx .fzzx-list .front{*/
+    /*z-index: 2;*/
+/*}*/
+/*.fzzx .fzzx-list .front{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*backface-visibility: hidden;*/
+    /*transition: all 0.6s ease 0s;*/
+/*}*/
+/*.fzzx .fzzx-list .back{*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*backface-visibility: hidden;*/
+    /*transition: all 0.6s ease 0s;*/
+/*}*/
+/*.fzzx .fzzx-list .back h2{*/
+    /*font-size: 20px;*/
+    /*text-align: left;*/
+/*}*/
+/*.fzzx .fzzx-list .front{*/
+    /*transform: rotatey(0deg);*/
+/*}*/
+/*.fzzx .fzzx-list .back{*/
+    /*z-index: 1;*/
+    /*height: 100%;*/
+    /*background: #fff;*/
+/*}*/
+/*.fzzx .fzzx-list .back{*/
+    /*transform: rotatey(-180deg);*/
+/*}*/
+/*.fzzx .fzzx-list .back{*/
+    /*display: table;*/
+    /*content: ' ';*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid #f60;*/
+    /*width: 150px;*/
+    /*height: 128px;*/
+/*}*/
+/*.fzzx .fzzx-list>ul li>div:hover div.front{*/
+    /*transform: rotatey(180deg);*/
+/*}*/
+/*.fzzx .fzzx-list>ul li>div:hover div.back{*/
+    /*transform: rotatey(0deg);*/
+/*}*/
+
+
+
+/**
+图片翻转结束
+*/
+.fzzx .fzzx-zjlfw-right .fzzx-list-right{
+    margin-left:10px;
+    width: 630px;
+    height: 128px;
+    background: rgb(255,255,255);
+    position:relative;
+    top: 10px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list-right .fzzx-market-content{
+    width: 625px;
+    height: 58px;
+    overflow: hidden;
+}
+/*.fzzx .fzzx-zjlfw-right .fzzx-list-right:hover{*/
+    /*border: 1px solid #FF6600;*/
+    /*box-shadow:0 0 10px rgba(255, 102, 0, .5);*/
+/*}*/
+.fzzx .fzzx-zjlfw-right .fzzx-list-right p{
+    text-align: left;
+    background: rgb(255,255,255);
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list-right p:first-of-type{
+    font-weight: 500;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list-right a:last-of-type{
+    width:100px;
+    padding:3px 0;
+    background:#FD6502;
+    color:#fff;
+    margin-right:30px;
+    border-radius:5px;
+    text-align: center;
+    float:right;
+    position: absolute;
+    top: 85px;
+    left: 490px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list-right a:last-of-type:hover{
+    box-shadow: 0 0 10px rgba(0,0,255,0.5);
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list ul {
+    list-style: none;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-list ul li .fzzx-list-content{
+    margin-bottom: 10px;
+}
+.fzzx-page .fzzx-page-list{
+    margin-top: 20px;
+}
+.fzzx-page .fzzx-page-list ul li{
+    float:left;
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height:38px;
+    margin-left: 10px;
+    border: 1px solid #797979;
+    background: rgb(255,255,255);
+}
+.fzzx-page .fzzx-page-list ul li:last-of-type{
+    width: 130px;
+}
+.fzzx-page .fzzx-page-list ul li span{
+    background: rgb(255,255,255);
+}
+.fzzx-page .fzzx-page-list ul li input{
+    width: 40px;
+    height: 20px;
+    vertical-align: middle;
+}
+.fzzx-page .fzzx-page-list ul li.active a{
+    background-color: #FF6600;
+    display: block;
+}
+.fzzx-page .fzzx-page-list ul li a:hover{
+    background-color: #FF6600;
+    display: block;
+}
+/*走进乐纺网---联系我们*/
+.fzzx .fzzx-zjlfw-right .concat-us{
+    background: rgb(255,255,255);
+    width: 800px;
+    min-height: 619px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us>p{
+    padding: 14px 0;
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -28px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us #concat-us-img{
+    width: 750px;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us img{
+    height: 100%;
+}
+.fzzx .fzzx-zjlfw-right .concat-us .concat-us-detail{
+    margin-top: 50px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us .concat-us-detail .concat-us-address{
+    width: 400px;
+    text-align: center;
+}
+.fzzx .fzzx-zjlfw-right .concat-us .concat-us-detail .concat-us-tel{
+    text-align: left;
+    font-size: 18px;
+}
+.fzzx .fzzx-zjlfw-right .concat-us .concat-us-detail .concat-us-tel h2:first-of-type{
+    color: #FF6600;
+}
+.fzzx .fzzx-zjlfw-right .concat-us .concat-us-detail .concat-us-tel h2{
+    padding: 10px;
+}
+/*走进乐纺网———法律声明*/
+.fzzx .fzzx-zjlfw-right .law{
+    width: 800px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .law>p{
+    padding: 14px 0;
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-zjlfw-right .law>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -27px;
+}
+.fzzx .fzzx-zjlfw-right .law div{
+    background: rgb(255,255,255);
+    text-align: left;
+    padding: 15px;
+}
+.fzzx .fzzx-zjlfw-right .law div p{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 25px;
+}
+.fzzx .fzzx-zjlfw-right .law div p:first-of-type{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/*.fzzx .fzzx-zjlfw-right .law div p.little-title{*/
+    /*text-align: center;*/
+/*}*/
+/*走进乐纺网——加入我们*/
+.fzzx .fzzx-zjlfw-right .join-us{
+    width: 800px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .join-us>p{
+    padding: 14px 0;
+    font-size: 15px;
+    border-left: none;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-zjlfw-right .join-us>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -27px;
+}
+.fzzx .fzzx-zjlfw-right .join-us div{
+    background: rgb(255,255,255);
+    text-align: left;
+    padding: 20px;
+}
+.fzzx .fzzx-zjlfw-right .join-us div h2{
+    font-weight: bold;
+    font-size: 15px;
+}
+.fzzx .fzzx-zjlfw-right .join-us div h2,.fzzx .fzzx-zjlfw-right .join-us div p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/*走进乐纺网——投诉反馈*/
+.fzzx .fzzx-zjlfw-right .fzzx-feedback{
+    width: 800px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-zjlfw-right .fzzx-feedback>p{
+    padding: 14px 0;
+    font-size: 15px;
+    border-left: none;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-feedback>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -27px;
+}
+.fzzx .fzzx-zjlfw-right .fzzx-feedback div{
+    height: 610px;
+    padding: 20px;
+}
+    /*右边纺织资讯列表*/
+/*纺织资讯---乐纺头条*/
+.fzzx .fzzx-fzzx-right{
+    width: 800px;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list>p{
+    width: 800px;
+    padding: 14px 0;
+    font-size: 15px;
+    border-left: none;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list>p:nth-child(2){
+    border-bottom: 1px solid #797979;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: -27px;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list>p>span{
+    margin-right: 20px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-fzzx-right .fzzx-list>p>span span{
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-fzzx-right .fzzx-list{
+    width: 800px;
+    min-height: 500px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-fzzx-right .fzzx-list ul li{
+    border-bottom: 1px solid #ddd;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-left{
+    width: 150px;
+    height: 128px;
+    border: 1px solid #f60;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-left img{
+    width: 100%;
+    height: 100%;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-right{
+    margin-left:10px;
+    width: 630px;
+    height: 128px;
+    position:relative;
+    top: 10px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+/*.fzzx .fzzx-fzzx-right .fzzx-list-right:hover{*/
+    /*border: 1px solid #FF6600;*/
+    /*box-shadow:0 0 10px rgba(255, 102, 0, .5);*/
+/*}*/
+.fzzx .fzzx-fzzx-right .fzzx-list-right p{
+    text-align: left;
+    background: rgb(255,255,255);
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-right p:first-of-type{
+    font-weight: 500;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-right .fzzx-market-content{
+    width: 625px;
+    height: 57px;
+    overflow: hidden;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-right a:last-of-type{
+    width:100px;
+    padding:3px 0;
+    background:#FD6502;
+    color:#fff;
+    margin-right:30px;
+    border-radius:5px;
+    text-align: center;
+    float:right;
+    position: absolute;
+    top: 85px;
+    left: 490px;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list-right a:last-of-type:hover{
+    box-shadow: 0 0 10px rgba(0,0,255,0.5);
+}
+.fzzx .fzzx-fzzx-right .fzzx-list ul {
+  list-style: none;
+}
+.fzzx .fzzx-fzzx-right .fzzx-list ul li .fzzx-list-content{
+    margin-bottom: 10px;
+}
+.fzzx-page .fzzx-page-list{
+    margin-top: 20px;
+}
+.fzzx-page .fzzx-page-list ul li{
+    float:left;
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height:38px;
+    margin-left: 10px;
+    border: 1px solid #797979;
+    background: rgb(255,255,255);
+}
+.fzzx-page .fzzx-page-list ul li:last-of-type,.fzzx-page .fzzx-page-list ul li:first-of-type{
+    width: 60px;
+}
+.fzzx-page .fzzx-page-list ul li span{
+    background: rgb(255,255,255);
+}
+.fzzx-page .fzzx-page-list ul li input{
+    width: 40px;
+    height: 20px;
+    vertical-align: middle;
+}
+.fzzx-page .fzzx-page-list ul li.active a{
+    background-color: #FF6600;
+    display: block;
+}
+.fzzx-page .fzzx-page-list ul li a:hover{
+    background-color: #FF6600;
+    display: block;
+}
+/*纺织资讯----纺织行情*/
+/*.fzzx .fzzx-fzzx-right .fzzx-market .fzzx-list div{*/
+    /*width: 800px;*/
+/*}*/
+/*.fzzx .fzzx-fzzx-right .fzzx-market div.fzzx-market-title{*/
+    /*background: rgb(255,255,255);*/
+    /*width: 475px;*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    /*text-align: center;*/
+    /*margin: 20px auto;*/
+    /*font-size: 26px;*/
+    /*font-weight: normal;*/
+    /*border: 1px solid #000;*/
+/*}*/
+/*.fzzx .fzzx-fzzx-right .fzzx-market div.fzzx-market-date{*/
+    /*background: rgb(255,255,255);*/
+
+/*}*/
+
+/*列表详情页面*/
+.fzzx .fzzx-right{
+    width: 800px;
+    background: rgb(255,255,255);
+}
+.fzzx .fzzx-right>p{
+    border-bottom: 1px solid #797979;
+    padding: 14px 0;
+    font-size: 15px;
+    border-left: none;
+    margin: 0px;
+    text-align: left;
+    padding-left:20px;
+}
+.fzzx .fzzx-right>p a:hover{
+    color: #FF6600;
+}
+.fzzx .fzzx-right>p span{
+    margin-right: 20px;
+}
+.fzzx .fzzx-right .fzzx-detail-title{
+    margin:10px auto;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.fzzx .fzzx-right .fzzx-detail-date{
+    background: rgb(255,255,255);
+    margin: 0 auto;
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fzzx .fzzx-right .fzzx-detail-content{
+    background: rgb(255,255,255);
+    padding:0 10px 0 10px;
+    width: 800px;
+    min-height: 450px;
+    text-align: left;
+}
+.fzzx .fzzx-right .fzzx-detail-content>p{
+    text-indent: 2em;
+    font-size: 15px;
+}

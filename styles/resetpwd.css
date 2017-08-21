@@ -1,0 +1,23 @@
+.reset-threetype li h1{
+	font-size:20px;
+	color:#333;
+	font-weight:700;
+}
+.reset-threetype li em{
+	color:#FD2E2D;
+	font-size:22px;
+}
+.reset-threetype li a{
+	color:#FC5F1A;;
+	font-size:16px;
+	text-decoration: underline;
+}
+.reset-main .reset-onetype li span.reseconds{
+	display:none;
+}
+.nav-main-reg>ul>li:not(:nth-last-of-type(3))>span {
+    color: red;
+    position: absolute;
+    top: 15px;
+    padding-left: 30px;
+}

@@ -1,0 +1,364 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>发票管理</title>
+
+    <link rel="icon" href="images/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbuild -->
+
+    <!-- build:css styles/D-invoiceManage.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/qygl.css">
+    <link rel="stylesheet" href="styles/invoice_dz.css">
+    <link rel="stylesheet" href="styles/D-pruList.css">
+    <link rel="stylesheet" href="styles/D-watieInvoice.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+      <div id="lefangtex_top"></div>
+      <div id="lefangtex_nav"></div>
+      <div class="qygl">
+            <div class="qygl-container clearfix">
+                <div class="qygl-left left"  id="lefangtex_qygl">
+                </div>
+                <div class="qygl-right right"></div>
+            </div>
+    </div>
+
+        <div class="foot_bg">
+            <div class="foot">
+                <ul class="ft_list">
+                    <li><a href="index.html">乐纺官网</a></li>
+                    <li><a href="fzzx.html">关于乐纺</a></li>
+                    <li><a href="fzzx.html">法律政策</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="fzzx.html">联系我们</a></li>
+                    <li><a href="javascript:;">在线客服(每日8：30-20：00)</a></li>
+                    <li><a href="fzzx.html">加入我们</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="javascript:;">微信公众号</a></li>
+                    <li><a href="javascript:;" class="erwm">
+                        <img src="./images/pic/QR.png" alt="">
+                        </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="copyright_bg">
+            <div class="copyright">
+                <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                <span> 苏ICP备16243357号-1</span>
+                <span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+                <script>
+                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+            </div>
+        </div>
+
+    <!-- </div> -->
+
+    <!-- example template -->
+
+    <!-- top nav start -->
+        <script type="milkt/template" id="lefang_top">
+            <!-- top nav start -->
+                <div class="top_nav">
+                    <div class="top_nav_container clearfix">
+                        <div class="top_nav_left right">
+                            <!--<a href="javascript:;" class="top_nav_mobile">
+                                <i><img src="images/icon/ico_mobile.png" alt=""></i>
+                                手机端
+                            </a>-->
+                            <a href="javascript:;">
+                                <i><img src="images/icon/ico_phone.png" alt=""></i>
+                                <span>客服热线:</span>
+                                0510-83560008
+                                <span>( 8:30-20:00 )</span>
+                            </a>
+                        </div>
+                        <div class="top_nav_right left">
+                            <a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+                            <a href="login.html" class="top_nav_login">登录</a>
+                            <a href="register.html" class="top_nav_regist">注册</a>
+                        </div>
+                    </div>
+                </div>
+            <!-- top nav end -->
+        </script>
+    <!-- top nav end -->
+
+
+    <!--main nav start-->
+        <script type="milkt/template" id="lefang_nav">
+            <!--main nav start-->
+                <div class="main_nav">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav end-->
+        </script>
+    <!--main nav end-->
+
+    <!--main nav_suspend start-->
+           <script type="milkt/template" id="lefang_nav_suspend">
+            <!--main nav suspend start-->
+                <div class="main_nav_suspend">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav suspend end-->
+        </script>
+    <!--main nav end-->
+
+    <!-- enterprise start-->
+    <script type="milkt/template" id='lefang_qygl'>
+          <div class="qygl-left-con">
+            <ul id="qygl">
+              <li class="per-img">
+                <a href="javascript:;">
+                  <img src="images/u2725.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+    </script>
+
+    <script type="milkt/template" id="invoice_Box">
+        <div class="qygl-right-con">
+                <div class="contentBox">
+
+                    <!--           待开发票列表            -->
+
+                    <div class="conentInvoices fr waiteInvoice">
+
+                        <p class="tit">待开发票</p>
+                        <!--<div class="search">
+                                <button class="searchBtn btn fr">搜索</button>
+                                <input type="text" name="" class="cgdd fr"  placeholder="按订单号搜索发票">
+                        </div>-->
+                        <div class="clear"></div>
+                        <table id="waiteInvoiceTable" class="invoices fr">
+                            <tr class="dkfp_invoiceTit">
+                                <td class="bl"></td>
+                                <td>订单支付时间</td>
+                                <td>发票金额</td>
+                                <td>发票抬头/元</td>
+                                <td>发票邮寄地址</td>
+                                <td>邮政编码</td>
+                                <td>快递联系人电话</td>
+                                <td>快递联系人</td>
+                                <td>发票类型</td>
+                                <td>操作</td>
+                                <td class="br"></td>
+                            </tr>
+                        </table>
+
+                        <div class="invoiceText fr">待开票金额：<span class="money">700.00</span>元</div>
+                        <div class="clear"></div>
+                        <button class="commitBtn fr">开具发票</button>
+
+                    </div>
+
+                    <!--           索要发票列表            -->
+
+                    <div class="conentInvoices fr applyInvoice">
+
+                        <p class="tit">索取发票</p>
+                        <div class="search">
+                                <button class="searchBtn btn fr">搜索</button>
+                                <input type="text" name="" class="cgdd fr"  placeholder="按订单号搜索发票">
+                        </div>
+                        <div class="clear"></div>
+                        <table class="invoices fr">
+                            <tr class="sqfp_invoiceTit">
+                                <td class="bl"></td>
+                                <td>订单编号</td>
+                                <td>商铺名称</td>
+                                <td>商品名称</td>
+                                <td>交付金额/元</td>
+                                <td class="br">支付完成时间</td>
+                            </tr>
+                        </table>
+
+                        <div class="invoiceText fr">未开票金额：<span id="dk_money" class="money">500.00</span>元</div>
+                        <div class="clear"></div>
+
+                        <button id="getInvoice" class="commitBtn fr">索取发票</button>
+
+                        <div class="radio_invoice fr">选择发票类型：<input type="radio" name="invoice" checked="checked" style="outline:none">增值税普票<input type="radio" name="invoice" style="outline:none">增值税专用发票</div>
+
+                        <!-- <div class="contentBox" style="min-height:100px;margin-top:50px;">
+                            <table class="table table-bordered cent"  style="width: 90%;margin: 0 auto">
+                                <p class="tit">寄送地址</p>
+                                <tr>
+                                    <td colspan="7" class="title"><a id="add" type="button" class="btn r_add" style="float:right">+ 添加</a></td>
+                                </tr>
+                                <tr>
+                                    <th>收件人</th>
+                                    <th>所在地区</th>
+                                    <th>详细地址</th>
+                                    <th>邮政编号</th>
+                                    <th>电话/手机号</th>
+                                    <th>操作</th>
+                                    <th>默认收货地址</th>
+                                </tr>
+                            </table>
+                        </div> -->
+
+                    </div>
+
+                    <!--           发票管理列表            -->
+
+                    <div class="conentInvoices fr invoiceManage">
+
+                        <p class="tit">发票管理</p>
+                        <div class="search">
+                                <div class="l-btns fl">
+                                    <button id="y_cp" class="cp fl btn">已出票</button>
+                                    <button id="w_cp" class="cp fl btn">未出票</button>
+                                </div>
+
+                                <button class="searchBtn fr btn">搜索</button>
+                                <input type="text" name="" class="cgdd fr"  placeholder="按订单号搜索发票">
+                        </div>
+                        <div class="clear"></div>
+                        <table id="invoiceManageTable" class="invoices fr">
+                            <tr class="fpgl_invoiceTit">
+                                <td></td>
+                                <td class="bl">发票金额/元</td>
+                                <td>商品名称</td>
+                                <td>发生时间</td>
+                                <td>发票抬头</td>
+                                <td class="br">状态</td>
+                                <td class="br">操作</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- enterprise end -->
+
+
+
+    <!-- foot start-->
+        <script type="milkt/template" id="lefang_foot">
+            <!-- foot start-->
+                <div class="foot_bg">
+                    <div class="foot">
+                        <ul class="ft_list">
+                            <li><a href="#">乐纺官网</a></li>
+                            <li><a href="#">关于乐纺</a></li>
+                            <li><a href="#">法律政策</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">在线客服(每日8：30-20：00)</a></li>
+                            <li><a href="#">加入我们</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#" class="erwm"></a></li>
+                            <!-- <img src="./images/QR.png" alt=""> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright_bg">
+                    <div class="copyright">
+                        <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                        <span> 苏ICP备16243357号-1</span>
+                        <span>江苏中添纺织科技有限公司版权所有</span>
+                    </div>
+                </div>
+            <!-- foot end-->
+        </script>
+    <!-- foot end-->
+
+
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+    <script src="/bower_components/store/dist/store.everything.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/D-invoiceManage.js -->
+    <script src="scripts/api/homepagePI.js"></script>
+    <script src="scripts/api/enterpriseQS.js"></script>
+    <script src="scripts/api/D-api.js"></script>
+    <script src="scripts/api/shopcart_nums.js"></script>
+    <script src="scripts/api/homepageYarn.js"></script>
+    <script src="scripts/api/feedbackfrom.js"></script>
+    <script src="scripts/api/productCGmain.js"></script>
+
+
+    <script src="scripts/util.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/enterprisevip.js"></script>
+    <script src="scripts/D-invoiceManage.js"></script>
+    <script src="scripts/D-invoice_dz.js"></script>
+
+
+    <!-- endbuild -->
+  </body>
+</html>

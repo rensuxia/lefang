@@ -1,0 +1,39 @@
+@charset='utf-8';
+
+*{margin: 0;padding: 0;}
+
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.wrapper{width: 450px;margin: 0 auto;}
+
+.contentBox{
+	min-height: 550px;
+	padding: 20px;
+	position: relative;
+}
+
+/*-------------------------------------*/
+
+.invoice_detail h1{
+	font-size: 30px;
+}
+
+.invoice_detail p,.invoice_detail span{
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.open{
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 20px;
+	color: white;
+	background: none;
+	border: 0;
+	border-radius: 5px;
+	background-color: rgb(22,153,213);
+	right: 0;
+}

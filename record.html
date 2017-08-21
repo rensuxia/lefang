@@ -1,0 +1,346 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>订单详情</title>
+
+  <link rel="icon" href="images/icon/favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+  <!-- endbuild -->
+
+  <!-- build:css styles/record.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/qygl.css">
+  <link rel="stylesheet" href="styles/record.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+<!-- <div class="container"> -->
+<div id="lefangtex_top"></div>
+<div id="lefangtex_nav"></div>
+<div id="lefangtex_record"></div>
+  <!--<div class="order_detail_main clearfix">-->
+    <!--<div class="qygl-left left" id="lefangtex_qygl"></div>-->
+    <!--<div class="qygl-right order_detail_right right"></div>-->
+  <!--</div>-->
+<!--</div>-->
+
+<div class="foot_bg">
+  <div class="foot">
+    <ul class="ft_list">
+      <li>
+        <a href="index.html">乐纺官网</a>
+      </li>
+      <li>
+        <a href="fzzx.html">关于乐纺</a>
+      </li>
+      <li>
+        <a href="fzzx.html">法律政策</a>
+      </li>
+    </ul>
+    <ul class="ft_list">
+      <li>
+        <a href="fzzx.html">联系我们</a>
+      </li>
+      <li>
+        <a href="javascript:;">在线客服(每日8：30-20：00)</a>
+      </li>
+      <li>
+        <a href="fzzx.html">加入我们</a>
+      </li>
+    </ul>
+    <ul class="ft_list">
+      <li>
+        <a href="javascript:;">微信公众号</a>
+      </li>
+      <li>
+        <a href="javascript:;" class="erwm">
+          <img src="./images/pic/QR.png" alt="">
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+<div class="copyright_bg">
+  <div class="copyright">
+    <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+    <span> 苏ICP备16243357号-1</span>
+    <span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+    <script>
+      var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+      document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+  </div>
+</div>
+
+<!-- </div> -->
+
+<!-- example template -->
+
+<!-- top nav start -->
+<script type="milkt/template" id="lefang_top">
+  <!-- top nav start -->
+  <div class="top_nav">
+    <div class="top_nav_container clearfix">
+      <div class="top_nav_left right">
+        <!--<a href="javascript:;" class="top_nav_mobile">
+              <i><img src="images/icon/ico_mobile.png" alt=""></i>
+              手机端
+          </a>-->
+        <a href="javascript:;">
+          <i><img src="images/icon/ico_phone.png" alt=""></i>
+          <span>客服热线:</span> 0510-83560008
+          <span>( 8:30-20:00 )</span>
+        </a>
+      </div>
+      <div class="top_nav_right left">
+        <a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+        <a href="login.html" class="top_nav_login">登录</a>
+        <a href="register.html" class="top_nav_regist">注册</a>
+      </div>
+    </div>
+  </div>
+  <!-- top nav end -->
+</script>
+<!-- top nav end -->
+
+<!--main nav start-->
+<script type="milkt/template" id="lefang_nav">
+  <!--main nav start-->
+  <div class="main_nav">
+    <div class="main_nav_container clearfix">
+      <div class="main_nav_logo left">
+        <a href="index.html">
+          <img src="images/icon/logo.png" alt="">
+        </a>
+      </div>
+      <div class="main_nav_list left">
+        <ul class="clearfix">
+          <li class="active">
+            <a href="index.html">首页</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_nav_shopcart right">
+        <a href="shopcart.html">
+          <img src="images/icon/ico_Buy.png" alt="">
+          <span>0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--main nav end-->
+</script>
+<!--main nav end-->
+
+<!--main nav_suspend start-->
+<script type="milkt/template" id="lefang_nav_suspend">
+  <!--main nav suspend start-->
+  <div class="main_nav_suspend">
+    <div class="main_nav_container clearfix">
+      <div class="main_nav_logo left">
+        <a href="index.html">
+          <img src="images/icon/logo.png" alt="">
+        </a>
+      </div>
+      <div class="main_nav_list left">
+        <ul class="clearfix">
+          <li >
+            <a href="index.html">首页</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_nav_shopcart right">
+        <a href="shopcart.html">
+          <img src="images/icon/ico_Buy.png" alt="">
+          <span>0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--main nav suspend end-->
+</script>
+<!--main nav end-->
+
+<!--查看 交易记录开始 -->
+<script type="milkt/template" id="lefang_record">
+<div class="record">
+   <div class="record_top">
+     交易记录流程：
+   </div>
+   <p class="record_title">交易记录:</p>
+  <div class="content">
+      <b class="time">交易时间:</b>
+      <input type="date" value="">
+      <em>到</em>
+      <input type="date" value="">
+      <p class="find">单次查询的最高跨度为31天</p>
+     <div class="start">
+       <a href="javascript:;">查询</a>
+       <a href="javascript:;">显示高级选项</a>
+     </div>
+     <!--<div class="toggle">-->
+       <!--<b class="time">交易时间:</b>-->
+       <!--<input type="date" value="">-->
+       <!--<em>到</em>-->
+       <!--<input type="date" value="">-->
+       <!--<p class="find">单次查询的最高跨度为31天</p>-->
+       <!--<b class="time">交易状态:</b>-->
+       <!--<select name="" id="">-->
+         <!--<option value="0">所有类型</option>-->
+         <!--<option value="1">待买家已支付</option>-->
+         <!--<option value="2">买家已支付</option>-->
+       <!--</select>-->
+       <!--<br>-->
+       <!--<b class="time">交易金额:</b>-->
+       <!--<input type="text" value="" class="money">-->
+       <!--<em>到</em>-->
+       <!--<input type="text" value="" class="money">-->
+       <!--<div class="start">-->
+         <!--<a href="javascript:;">查询</a>-->
+         <!--<a href="javascript:;">隐藏高级选项</a>-->
+       <!--</div>-->
+     <!--</div>-->
+    <p class="download">
+      下载表单:
+          <a href=""></a>
+    </p>
+    <!--<ul class="record_detail">-->
+      <!--<li>-->
+        <!--<a href="">交易时间</a>-->
+        <!--<a href="">关联的订单号</a>-->
+        <!--<a href="">流水号</a>-->
+        <!--<a href="">支付方式</a>-->
+        <!--<a href="">交易状态</a>-->
+        <!--<a href="">订单金额</a>-->
+        <!--<a href="">操作</a>-->
+      <!--</li>-->
+    <!--</ul>-->
+    <table border="1" cellspacing="1" class="record_detail" >
+      <tbody>
+      <tr>
+        <td>交易时间 </td>
+        <td>关联的订单号</td>
+        <td>流水号</td>
+        <td>支付方式</td>
+        <td>交易状态</td>
+        <td>订单金额</td>
+        <td>操作</td>
+      </tr>
+      <tr>
+        <td>2017-06-06 &nbsp;13:00 </td>
+        <td>2017083217392746</td>
+        <td>2017083217392746</td>
+        <td>通联支付</td>
+        <td>已支付</td>
+        <td> 12311</td>
+        <td>查看</td>
+      </tr>
+      <tr>
+        <td>2017-08-08 &nbsp;18:00 </td>
+        <td>2017083217392748</td>
+        <td>2017083217392748</td>
+        <td>通联支付</td>
+        <td>已支付</td>
+        <td> 8888</td>
+        <td>查看</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</script>
+<!--查看 交易记录结束 -->
+
+<!-- 底部 开始 -->
+<script type="milkt/template" id="lefang_foot">
+  <!-- foot start-->
+  <div class="foot_bg clearfix">
+    <div class="foot">
+      <ul class="ft_list">
+        <li>
+          <a href="#">乐纺官网</a>
+        </li>
+        <li>
+          <a href="#">关于乐纺</a>
+        </li>
+        <li>
+          <a href="#">法律政策</a>
+        </li>
+      </ul>
+      <ul class="ft_list">
+        <li>
+          <a href="#">联系我们</a>
+        </li>
+        <li>
+          <a href="#">在线客服(每日8：30-20：00)</a>
+        </li>
+        <li>
+          <a href="#">加入我们</a>
+        </li>
+      </ul>
+      <ul class="ft_list">
+        <li>
+          <a href="#">微信公众号</a>
+        </li>
+        <li>
+          <a href="#" class="erwm"></a>
+        </li>
+        <!-- <img src="./images/QR.png" alt=""> -->
+      </ul>
+    </div>
+  </div>
+  <div class="copyright_bg">
+    <div class="copyright">
+      <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+      <span> 苏ICP备16243357号-1</span>
+      <span>江苏中添纺织科技有限公司版权所有</span>
+    </div>
+  </div>
+  <!-- foot end-->
+</script>
+<!-- 底部 结束 -->
+
+<!-- build:js scripts/vendor.js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<script src="/bower_components/lodash/lodash.js"></script>
+<script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+<script src="/bower_components/store/dist/store.everything.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/record.js.js -->
+<script src="scripts/api/homepagePI.js"></script>
+<script src="scripts/api/shopCartQOrder.js"></script>
+<script src="scripts/api/orderSave.js"></script>
+<script src="scripts/api/shopcart_nums.js"></script>
+<script src="scripts/api/homepageYarn.js"></script>
+<script src="scripts/api/productCGmain.js"></script>
+<script src="scripts/api/advertInfo.js"></script>
+<script src="scripts/api/homeYarnCategory.js"></script>
+
+<script src="scripts/util.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/record.js"></script>
+
+<!-- endbuild -->
+</body>
+
+</html>

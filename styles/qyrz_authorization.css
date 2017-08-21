@@ -1,0 +1,23 @@
+.authorization .authorization_title{
+    font-size: 25px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.authorization .authorization_contentOne p{
+    text-indent: 2em;
+    font-size: 15px;
+}
+.authorization .authorization_contentTwo p,.authorization .authorization_contentTwo ul li{
+    font-size: 15px;
+}
+.authorization .authorization_contentTwo .authorization_list li{
+    margin-left: 10px;
+}
+.authorization .authorization_contentThree p{
+    font-size: 15px;
+}
+.authorization .authorization_contentOne,.authorization_contentTwo,.authorization_contentThree{
+    margin: 25px 30px 0 30px;
+}

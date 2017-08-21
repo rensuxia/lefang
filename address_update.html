@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>修改收货地址</title>
+		<link rel="icon" href="images/icon/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
+
+		<!-- build:css styles/vendor.css -->
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbuild -->
+
+		<!-- build:css styles/D-enterpriseChildAccountManages.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/base.css">
+		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/newAddress.css">
+		<link rel="stylesheet" href="styles/D-pruList.css">
+		<link rel="stylesheet" href="styles/D-watieInvoice.css">
+		<link rel="stylesheet"href="styles/D-enterpriseChildAccountManage.css">
+		<link rel="stylesheet" href="styles/yarn.css">
+		<!-- endbuild -->
+
+		<!-- build:js scripts/vendor/modernizr.js -->
+		<script src="/bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+
+	</head>
+
+	<body>
+		<!-- <div class="container"> -->
+		<div id="add_conent"></div>
+		<!-- </div> -->
+
+		<!--contant start-->
+
+		<script type="milkt/template" id="add_Box">
+      <div class="conBox">
+        <div class="Tit"><p>编辑收货地址</p></div>
+        <div class="ssq">
+          <span>所在地区:</span>
+          <select id="province"></select>
+          <select id="city"></select>
+          <select id="area"></select>
+        </div>
+
+        <div class="count">
+          <span>详细地址:</span>
+          <span class="fr"><span class="must">*</span><input class="formData" id="address" type="text"></span>
+        </div>
+
+        <div class="count">
+          <span class="fl">邮政编码:</span>
+          <span class="fr"><span class="must">*</span><input class="formData" id="postalCode" type="text"></span>
+        </div>
+
+        <div class="count">
+          <span>收货人:</span>
+          <span class="fr"><span class="must">*</span><input class="formData" id="name" type="text"></span>
+        </div>
+
+        <div class="count">
+          <span>电话号码:</span>
+          <span class="fr"><span class="must">*</span><input id="phone" class="formData" type="text"></span>
+        </div>
+
+        <!--<div class="count">
+            <span>设为默认地址:</span>
+            <span class="fl"><input id="setAddress" type="radio"></span>
+        </div>-->
+
+        <div class="Btns">
+          <button class="fl outline" id="commit">提交</button>
+          <button class="fr outline" id="cancel">取消</button>
+        </div>
+      </div>
+		</script>
+
+		<!--contant end-->
+
+
+
+		<!-- build:js scripts/vendor.js -->
+		<script src="/bower_components/jquery/dist/jquery.js"></script>
+		<script src="/bower_components/modernizr/modernizr.js"></script>
+		<script src="/bower_components/lodash/lodash.js"></script>
+		<script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+		<script src="/bower_components/store/dist/store.everything.min.js"></script>
+		<!-- endbuild -->
+
+		<!-- build:js scripts/address_update.js -->
+		<!--<script src="scripts/api/homepagePI.js"></script>-->
+		<!--<script src="scripts/api/D-api.js"></script>-->
+		<!--<script src="scripts/api/shopcart_nums.js"></script>-->
+		<script src="scripts/api/city.js"></script>
+		    <script src="scripts/api/homepageYarn.js"></script>
+		    <script src="scripts/api/feedbackfrom.js"></script>
+		    <script src="scripts/api/productCGmain.js"></script>
+
+		<!--<script src="scripts/index.js"></script>-->
+		<script src="scripts/util.js"></script>
+		<!--<script src="scripts/main.js"></script>-->
+		<!--<script src="scripts/enterprisevip.js"></script>-->
+		<!--<script src="scripts/newAddress.js"></script>-->
+    <script src="scripts/city.js"></script>
+    <script src="scripts/address_update.js"></script>
+
+
+
+		<!-- endbuild -->
+	</body>
+
+</html>

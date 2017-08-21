@@ -1,0 +1,878 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>企业认证</title>
+
+    <link rel="icon" href="images/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbuild -->
+
+    <!-- build:css styles/qyrz.css -->
+    <link rel="stylesheet" href="styles/datedropper.css">
+    <link rel="stylesheet" href="styles/timedropper.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/qygl.css">
+    <link rel="stylesheet" href="styles/qyrz.css">
+    <!--<link rel="stylesheet" href="scripts/skin/default/laydate.css">-->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+</head>
+
+<body>
+<!-- <div class="container"> -->
+<div id="lefangtex_top"></div>
+<div id="lefangtex_nav"></div>
+<div class="qygl">
+    <div class="qygl-container clearfix">
+        <div class="qygl-left left" id="lefangtex_qygl"></div>
+        <div class="qygl-right right">
+        </div>
+    </div>
+</div>
+
+<div class="foot_bg">
+    <div class="foot">
+        <ul class="ft_list">
+            <li><a href="index.html">乐纺官网</a></li>
+            <li><a href="fzzx.html">关于乐纺</a></li>
+            <li><a href="fzzx.html">法律政策</a></li>
+        </ul>
+        <ul class="ft_list">
+            <li><a href="fzzx.html">联系我们</a></li>
+            <li><a href="javascript:;">在线客服(每日8：30-20：00)</a></li>
+            <li><a href="fzzx.html">加入我们</a></li>
+        </ul>
+        <ul class="ft_list">
+            <li><a href="javascript:;">微信公众号</a></li>
+            <li><a href="javascript:;" class="erwm">
+                <img src="./images/pic/QR.png" alt="">
+            </a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="copyright_bg">
+    <div class="copyright">
+        <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+        <span> 苏ICP备16243357号-1</span>
+        <span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+        <script>
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+</div>
+
+<!-- </div> -->
+
+<!-- example template -->
+
+<!-- top nav start -->
+<script type="milkt/template" id="lefang_top">
+    <!-- top nav start -->
+    <div class="top_nav">
+        <div class="top_nav_container clearfix">
+            <div class="top_nav_left right">
+                <!--<a href="javascript:;" class="top_nav_mobile">
+                    <i><img src="images/icon/ico_mobile.png" alt=""></i>
+                    手机端
+                </a>-->
+                <a href="javascript:;">
+                    <i><img src="images/icon/ico_phone.png" alt=""></i>
+                    <span>客服热线:</span>
+                    0510-83560008
+                    <span>( 8:30-20:00 )</span>
+                </a>
+            </div>
+            <div class="top_nav_right left">
+                <a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+                <a href="login.html" class="top_nav_login">登录</a>
+                <a href="register.html" class="top_nav_regist">注册</a>
+            </div>
+        </div>
+    </div>
+    <!-- top nav end -->
+</script>
+<!-- top nav end -->
+
+
+<!--main nav start-->
+<script type="milkt/template" id="lefang_nav">
+    <!--main nav start-->
+    <div class="main_nav">
+        <div class="main_nav_container clearfix">
+            <div class="main_nav_logo left">
+                <a href="index.html">
+                    <img src="images/icon/logo.png" alt="">
+                </a>
+            </div>
+            <div class="main_nav_list left">
+                <ul class="clearfix">
+                    <li class="active">
+                        <a href="index.html">首页</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main_nav_shopcart right">
+                <a href="shopcart.html">
+                    <img src="images/icon/ico_Buy.png" alt="">
+                    <span>0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--main nav end-->
+</script>
+<!--main nav end-->
+
+<!--main nav_suspend start-->
+<script type="milkt/template" id="lefang_nav_suspend">
+    <!--main nav suspend start-->
+    <div class="main_nav_suspend">
+        <div class="main_nav_container clearfix">
+            <div class="main_nav_logo left">
+                <a href="index.html">
+                    <img src="images/icon/logo.png" alt="">
+                </a>
+            </div>
+            <div class="main_nav_list left">
+                <ul class="clearfix">
+                    <li >
+                        <a href="index.html">首页</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main_nav_shopcart right">
+                <a href="shopcart.html">
+                    <img src="images/icon/ico_Buy.png" alt="">
+                    <span>0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--main nav suspend end-->
+</script>
+<!--main nav end-->
+
+<!-- 企业认证 开始 -->
+<script type="milkt/template" id='lefang_qygl'>
+    <div class="qygl-left-con">
+        <ul id="qygl">
+            <li class="per-img">
+                <a href=" ">
+                <img src="images/u2725.png" alt="" />
+            </a>
+            </li>
+        </ul>
+    </div>
+</script>
+
+<script type="milkt/template" id="lefang-qyrz-right">
+    <div class="qygl-right-con">
+        <div class="qygl-right-top qyrz-right-top">
+            <h1>企业实名认证</h1>
+        </div>
+        <hr class="qygl-hr">
+        <div class="qyrz-des">
+            <ul>
+
+                <li>
+                    <span>企业实名认证:</span>
+                    <div>
+                        <p class="qyrz_p">为确保本人认证身份代表企业，请按下列步骤操作提交资料：</p>
+                        <ul class="qyrz_list">
+                            <li>1、下载企业授权书模板</li>
+                            <li>2、填写相关信息并盖上公章</li>
+                            <li>3、上传盖上公章的企业授权书</li>
+                        </ul>
+                    </div>
+                    <span>认证授权书<em>*</em>:</span>
+                    <div class="qyrz-rzsq clearfix">
+                        <div class="qyrz-rzsq-left left">
+                            <img class="qyrz_img" id="rzsqs" src="images/rzsq.png" alt="">
+                            <br>
+                            <span>点击查看模板</span>
+                        </div>
+                        <div class="left qyrz-rzsq-right">
+                            <p class="qyrz-rzsq-col">
+                                请下载《认证授权书》<span><a id="down">点击下载</a></span>
+                            </p>
+                            <p class="qyrz-rzsq-col">按要求填写,并手写仅用于乐纺认证字样,并加盖企业公章</p>
+                            <p>照片所有信息需清晰可见,内容真实有效</p>
+                            <p>照片支持.jpg.jpeg.bmp.gif格式,大小不超过8M。</p>
+
+
+                            <input type="file" class="qyrz-yzfilet">
+                            <input type="button" value="选择文件..." class="qyrz-yzfilebtnT">
+                            <input type="hidden" class="hTimg" >
+                            <input id="handle_status" value="" hidden="hidden">
+                        </div>
+                    </div>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+
+
+                <li>
+                    <span>证件类型<em>*</em>:</span>
+                    <p class="qyrz-bl">
+                        <input type="radio" name="zj" checked="true" class="qyrz-dzhy">
+                        <span class="certifi_type">多证合一营业执照</span><span>(原"注册号"字样,调整为18位的"统一社会信用代码")</span>
+                        <br>
+                        <input type="radio" name="zj" class="qyrz-yzcm qyrz-dzhy">
+                        <span class="certifi_type">普通营业执照</span><span>(仍然标识为15位的"注册码")</span>
+                    </p>
+                </li>
+
+                <li>
+                    <div class="qyrz-xydm">
+                        <span>统一社会信用代码<em>*</em>:</span>
+                        <p>
+                            <input type="text" class="eighteen_code" placeholder="请输入18位的统一社会信用代码">
+                        </p>
+                    </div>
+                    <div class="qyrz-zch">
+                        <span>注册号<em>*</em>:</span>
+                        <p>
+                            <input type="text" class="fifteen_code" placeholder="请输入15位工商注册号">
+                        </p>
+                    </div>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>营业执照<em>*</em>:</span>
+                    <p class="clearfix yyzz">
+                    <span class="qyrz-yzimg">
+                    <img class="qyrz_img yyzz_img" id="yyzz" src="images/yyzz.png" alt="">
+                    <br>
+                    点击查看模板
+                    </span>
+                        <span>
+                            <em class="qyrz-disB">上传 :&nbsp; 营业执照图片;</em>
+                        <em class="qyrz-disB">照片所有信息需清晰可见，内容真实有效，不得做任何修改。</em>
+                        <em class="qyrz-disB">照片支持 .jpg .jpeg .bmp .gif .png格式,大小不超过8M</em>
+                        <input type="file" class="qyrz-yzfile">
+                            <input type="button" value="选择文件..." class="qyrz-yzfilebtn">
+                            <input type="hidden" class="yYimg" >
+                            </span>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>企业名称<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="qyrz_company_name" placeholder="请保持与营业执照上面的资料一致">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>法人代表<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="legal_repre" placeholder="请保持与营业执照上面的资料一致">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>法人代表身份证号<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="legal_repre_idCard" placeholder="请保持与营业执照上面的资料一致">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li class="qyrz-city">
+                    <span>所在城市<em>*</em>:</span>
+                    <p>
+                        <select name="" id="qyrz_province">
+                            <option value="请选择省份">请选择省份</option>
+                        </select>
+                        <select name="" id="qyrz_city">
+                            <option value="请选择城市">请选择城市</option>
+                        </select>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>详细地址<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="qyrz-add" placeholder="请保持与营业执照上面的详细地址一致">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>注册电话<em> </em>:</span>
+                    <p>
+                        <input type="text" class="regist_number">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>开户银行<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="oBank" placeholder="请输入企业对公账号开户行名称">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>银行账户<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="bankAccount" placeholder="请输入企业对公银行账号">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>注册资本<em>*</em>:</span>
+                    <p class="registeredCapitalText">
+                        <input type="text" class="registeredCapital">&nbsp;&nbsp;万元
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>成立日期<em>*</em>:</span>
+                    <p>
+                        <input type="date" class="input date" id="pickdate" />
+                        <!--<input type="text" id="slsj" class="laydate-icon date" />-->
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>企业类型<em>*</em>:</span>
+                    <p>
+                        <select class="qyrz_select" name="qyrz" id="">
+                            <option value="请选择">--请选择--</option>
+                            <option value="合资">合资</option>
+                            <option value="独资">独资</option>
+                            <option value="国有">国有</option>
+                            <option value="私营">私营</option>
+                            <option value="全民所有制">全民所有制</option>
+                            <option value="集体所有制">集体所有制</option>
+                            <option value="股份制">股份制</option>
+                            <option value="有限责任">有限责任</option>
+                        </select>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>产品范围<em>*</em>:</span>
+                    <p class="product_range">
+                        <input name="range" type="checkbox" class="range_yarn" value="纱线"><label>纱线</label>
+                        <input name="range" type="checkbox" class="range_grey" value="坯布"><label>坯布</label>
+                        <input name="range" type="checkbox" class="range_lining" value="面料"><label>面料</label>
+                        <input name="range" type="checkbox" class="range_device" value="设备"><label>设备</label>
+                        <input name="range" type="checkbox" class="range_other" value="其他"><label>其他</label>
+                        <label>&nbsp;&nbsp;注：至少选择一种</label>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li class="model-commercial">
+                    <span>商业模式<em>*</em>:</span>
+                    <p class="commercial_model">
+                        <input name="model" type="checkbox" class="sc_commercial" value="生产加工商"><label>生产加工商</label>
+                        <input name="model" type="checkbox" class="jx_commercial" value="经销批发商"><label>经销批发商</label>
+                        <input name="model" type="checkbox" class="zs_commercial" value="招商代理商"><label>招商代理商</label>
+                        <input name="model" type="checkbox" class="fw_commercial" value="商业服务"><label>商业服务</label>
+                        <input name="model" type="checkbox" class="qt_commercial" value="其他"><label>其他</label>
+                        <label>&nbsp;&nbsp;注：至少选择一种</label>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <!--<li>-->
+                    <!--<span></span>-->
+
+                    <!--<p class="qyrz-alignC">-->
+                        <!--<input type="checkbox" checked="checked">-->
+                        <!--<span>已阅读并同意<a href="javascript:;">《乐纺认证申请公函》</a></span>-->
+                    <!--</p>-->
+                <!--</li>-->
+                <li>
+                    <span></span>
+                    <p class="qyrz-tjsh">
+                        <a href="javascript:;" id="sub_audit">
+                            提交审核
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;" id="cal_audit">
+                            取消
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--上传营业执照-->
+    <!--<div class="uploadFile-all">-->
+        <!--&lt;!&ndash;<div style="color: #fff" class="motaikT">取消/完成</div>&ndash;&gt;-->
+    <!--<div class="motaik motaikO"></div>-->
+
+    <!--<div class="qyrz_upload clearfix">-->
+        <!--<span class="layui-layer-setwin">-->
+            <!--<a class="layui-layer-min" href="javascript:;"><cite></cite></a>-->
+            <!--<a class="layui-layer-ico layui-layer-max" href="javascript:;"></a>-->
+            <!--<a class="motaikO layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a>-->
+        <!--</span>-->
+        <!--<iframe src="r_uploadFile.html" frameborder="0" class="ret-uploadF">-->
+
+        <!--</iframe>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;上传认证授权书&ndash;&gt;-->
+    <!--<div class="uploadFile-allT">-->
+        <!--&lt;!&ndash;<div style="color: #fff" class="motaikT">取消/完成</div>&ndash;&gt;-->
+        <!--<div class="motaik motaikT"></div>-->
+        <!--<div class="qyrz_upload clearfix">-->
+            <!--<span class="layui-layer-setwin">-->
+                <!--<a class="layui-layer-min" href="javascript:;"><cite></cite></a>-->
+                <!--<a class="layui-layer-ico layui-layer-max" href="javascript:;"></a>-->
+                <!--<a class="motaikT layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a>-->
+            <!--</span>-->
+            <!--<iframe src="r_uploadFile.html" frameborder="0" class="ret-uploadF">-->
+
+            <!--</iframe>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+</script>
+
+
+<script type="milkt/template" id="lefang-qyrz-right_detail">
+    <div class="qygl-right-con">
+        <div class="qygl-right-top qyrz-right-top">
+            <h1>企业实名认证</h1>
+        </div>
+        <hr class="qygl-hr">
+        <div class="qyrz-des">
+            <ul>
+
+                <li>
+                    <span>企业实名认证:</span>
+                    <div>
+                        <p class="qyrz_p">为确保本人认证身份代表企业，请按下列步骤操作提交资料：</p>
+                        <ul class="qyrz_list">
+                            <li>1、下载企业授权书模板</li>
+                            <li>2、填写相关信息并盖上公章</li>
+                            <li>3、上传盖上公章的企业授权书</li>
+                        </ul>
+                    </div>
+                    <span>认证授权书<em>*</em>:</span>
+                    <div class="qyrz-rzsq clearfix">
+                        <div class="qyrz-rzsq-left left">
+                            <img class="qyrz_img" id="rzsqs_detail" src="<%= coabook %>" alt="">
+                            <br>
+                            <span>点击查看模板</span>
+                        </div>
+                        <div class="left qyrz-rzsq-right">
+                            <p class="qyrz-rzsq-col">
+                                请下载《认证授权书》<span><a id="down_detail">点击下载</a></span>
+                            </p>
+                            <p class="qyrz-rzsq-col">按要求填写,并手写仅用于乐纺认证字样,并加盖企业公章</p>
+                            <p>照片所有信息需清晰可见,内容真实有效</p>
+                            <p>照片支持.jpg.jpeg.bmp.gif格式,大小不超过8M。</p>
+
+
+                            <input type="file" class="qyrz-yzfilet">
+                            <input type="button" value="选择文件..." class="qyrz-yzfilebtnT">
+                            <input type="hidden" class="hTimg" value="<%= coabook %>">
+                            <input id="handle_status_detail" value="" hidden="hidden">
+                        </div>
+                    </div>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+
+
+                <li>
+                    <span>证件类型<em>*</em>:</span>
+                    <p class="qyrz-bl">
+                        <input type="radio" name="zj" checked="true" class="qyrz-dzhy">
+                        <span class="certifi_type">多证合一营业执照</span><span>(原"注册号"字样,调整为18位的"统一社会信用代码")</span>
+                        <br>
+                        <input type="radio" name="zj" class="qyrz-yzcm">
+                        <span class="certifi_type">普通营业执照</span><span>(仍然标识为15位的"注册码")</span>
+                    </p>
+                </li>
+
+                <li>
+                    <div class="qyrz-xydm">
+                        <span>统一社会信用代码<em>*</em>:</span>
+                        <p>
+                            <input type="text" class="eighteen_code" value="<%= unified_code %>">
+                        </p>
+                    </div>
+                    <div class="qyrz-zch">
+                        <span>注册号<em>*</em>:</span>
+                        <p>
+                            <input type="text" class="fifteen_code" value="<%= register_code %>">
+                        </p>
+                    </div>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+
+                <li>
+                    <span>营业执照<em>*</em>:</span>
+                    <p class="clearfix yyzz">
+                    <span class="qyrz-yzimg">
+                    <img class="qyrz_img yyzz_img" id="yyzz_detail" src="<%= licence_url %>" alt="">
+                    <br>
+                    点击查看模板
+                    </span>
+                        <span>
+                            <em class="qyrz-disB">上传 :&nbsp; 营业执照图片;</em>
+                        <em class="qyrz-disB">照片所有信息需清晰可见，内容真实有效，不得做任何修改。</em>
+                        <em class="qyrz-disB">照片支持 .jpg .jpeg .bmp .gif .png格式,大小不超过8M</em>
+                        <input type="file" class="qyrz-yzfile">
+                            <input type="button" value="选择文件..." class="qyrz-yzfilebtn">
+                            <input type="hidden" class="yYimg" value="<%= licence_url %>">
+                            </span>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>企业名称<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="qyrz_company_name" value="<%= company_name %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>法人代表<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="legal_repre" value="<%= legalperson %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>法人代表身份证号<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="legal_repre_idCard" value="<%= legalperson_code %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li class="qyrz-city">
+                    <span>所在城市<em>*</em>:</span>
+                    <p>
+                        <select name="" id="qyrz_province_detail">
+                            <!--<option value="<%= province %>"></option>-->
+                        </select>
+                        <select name="" id="qyrz_city_detail">
+                            <!--<option value="请选择城市">请选择城市</option>-->
+                        </select>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>详细地址<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="qyrz-add" value="<%= address %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>注册电话<em> </em>:</span>
+                    <p>
+                        <input type="text" class="regist_number" value="<%= phone_number %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>开户银行<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="oBank" value="<%= open_bank %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>银行账户<em>*</em>:</span>
+                    <p>
+                        <input type="text" class="bankAccount" value="<%= bank_account %>">
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>注册资本<em>*</em>:</span>
+                    <p class="registeredCapitalText">
+                        <input type="text" class="registeredCapital" value="<%= registered_capital %>">&nbsp;&nbsp;万元
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>成立日期<em>*</em>:</span>
+                    <p>
+                        <input type="date" class="input date" class="pickdate" value="<%= founding_time %>"/>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>企业类型<em>*</em>:</span>
+                    <p>
+                        <select class="qyrz_select" name="qyrz">
+                            <option id="qyrz_select_eqone" value="请选择">--请选择--</option>
+                            <option value="合资">合资</option>
+                            <option value="独资">独资</option>
+                            <option value="国有">国有</option>
+                            <option value="私营">私营</option>
+                            <option value="全民所有制">全民所有制</option>
+                            <option value="集体所有制">集体所有制</option>
+                            <option value="股份制">股份制</option>
+                            <option value="有限责任">有限责任</option>
+                        </select>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li>
+                    <span>产品范围<em>*</em>:</span>
+                    <p class="product_range">
+                        <input name="range" type="checkbox" class="range_yarn" value="纱线"><label>纱线</label>
+                        <input name="range" type="checkbox" class="range_grey" value="坯布"><label>坯布</label>
+                        <input name="range" type="checkbox" class="range_lining" value="面料"><label>面料</label>
+                        <input name="range" type="checkbox" class="range_device" value="设备"><label>设备</label>
+                        <input name="range" type="checkbox" class="range_other" value="其他"><label>其他</label>
+                        <label>&nbsp;&nbsp;注：至少选择一种</label>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <li class="model-commercial">
+                    <span>商业模式<em>*</em>:</span>
+                    <p class="commercial_model">
+                        <input name="model" type="checkbox" class="sc_commercial" value="生产加工商"><label>生产加工商</label>
+                        <input name="model" type="checkbox" class="jx_commercial" value="经销批发商"><label>经销批发商</label>
+                        <input name="model" type="checkbox" class="zs_commercial" value="招商代理商"><label>招商代理商</label>
+                        <input name="model" type="checkbox" class="fw_commercial" value="商业服务"><label>商业服务</label>
+                        <input name="model" type="checkbox" class="qt_commercial" value="其他"><label>其他</label>
+                        <label>&nbsp;&nbsp;注：至少选择一种</label>
+                    </p>
+                    <b class="qyrz_smile"></b>
+                    <strong></strong>
+                </li>
+                <!--<li>-->
+                <!--<span></span>-->
+
+                <!--<p class="qyrz-alignC">-->
+                <!--<input type="checkbox" checked="checked">-->
+                <!--<span>已阅读并同意<a href="javascript:;">《乐纺认证申请公函》</a></span>-->
+                <!--</p>-->
+                <!--</li>-->
+                <li>
+                    <span></span>
+                    <p class="qyrz-tjsh">
+                        <a href="javascript:;" id="load_submit">
+                            提交审核
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;" id="load_cancle">
+                            取消
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--上传营业执照-->
+    <!--<div class="uploadFile-all">-->
+    <!--&lt;!&ndash;<div style="color: #fff" class="motaikT">取消/完成</div>&ndash;&gt;-->
+    <!--<div class="motaik motaikO"></div>-->
+
+    <!--<div class="qyrz_upload clearfix">-->
+    <!--<span class="layui-layer-setwin">-->
+    <!--<a class="layui-layer-min" href="javascript:;"><cite></cite></a>-->
+    <!--<a class="layui-layer-ico layui-layer-max" href="javascript:;"></a>-->
+    <!--<a class="motaikO layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a>-->
+    <!--</span>-->
+    <!--<iframe src="r_uploadFile.html" frameborder="0" class="ret-uploadF">-->
+
+    <!--</iframe>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;上传认证授权书&ndash;&gt;-->
+    <!--<div class="uploadFile-allT">-->
+    <!--&lt;!&ndash;<div style="color: #fff" class="motaikT">取消/完成</div>&ndash;&gt;-->
+    <!--<div class="motaik motaikT"></div>-->
+    <!--<div class="qyrz_upload clearfix">-->
+    <!--<span class="layui-layer-setwin">-->
+    <!--<a class="layui-layer-min" href="javascript:;"><cite></cite></a>-->
+    <!--<a class="layui-layer-ico layui-layer-max" href="javascript:;"></a>-->
+    <!--<a class="motaikT layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a>-->
+    <!--</span>-->
+    <!--<iframe src="r_uploadFile.html" frameborder="0" class="ret-uploadF">-->
+
+    <!--</iframe>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+</script>
+<!-- 企业认证 结束 -->
+
+
+<!-- 底部 开始 -->
+<script type="milkt/template" id="lefang-foot">
+    <div class="footer">
+        <div class="footer-left clearfix">
+            <div class="footer-logo left">
+                <a href="javascript:;">
+                    <img src="images/logo-hyzx.png" alt="">
+                </a>
+            </div>
+            <ul class="footer-list left clearfix">
+                <li class="left">
+                    <span>乐纺网家</span>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                关于乐纺
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                法律政策
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="left">
+                    <span>联系我们</span>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                在线客服(每日 8:30~20:00)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                加入我们
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer-gzh left">
+                <p>扫描二维码关注</p>
+                <p>乐纺网家官方公众号:</p>
+                <p>
+                    <a href="javascript:;">
+                        <img src="images/erweima_03.png" alt="">
+                    </a>
+                </p>
+            </div>
+            <div class="footer-sj left">
+                <p>扫描二维码下载手机客户端</p>
+                <p>iPhone、Android:</p>
+                <p>
+                    <a href="javascript:;">
+                        <img src="images/erweima_03.png" alt="">
+                    </a>
+                    <a href="javascript:;">
+    <span>
+    <em>
+    <img src="images/iphone.png" alt="">
+    </em>
+    iphone
+    </span>
+                    </a>
+                    <a href="javascript:;" class="sjewm">
+    <span>
+    <em>
+    <img src="images/android.png" alt="">
+    </em>
+    Android
+    </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div>
+            <p>
+                <a href="javascript:;">Copyright&copy;2015-2017lefangtex.cn All Rights Reserved</a> |
+                <a href="javascript:;">苏ICP备16243357号-1</a>|
+                <a href="javascript:;">江苏中添纺织科技有限公司版权所有</a>
+            </p>
+        </div>
+    </div>
+</script>
+<!-- 底部 结束 -->
+
+
+
+<!-- build:js scripts/vendor.js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<script src="/bower_components/lodash/lodash.js"></script>
+<script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+<script src="/bower_components/store/dist/store.everything.min.js"></script>
+
+<!-- endbuild -->
+
+
+<!-- build:js scripts/qyrz.js -->
+<script src="scripts/api/fq.getItemInfo.js"></script>
+<script src="scripts/api/userdologin.js"></script>
+<script src="scripts/api/userregister.js"></script>
+<script src="scripts/api/homepagePI.js"></script>
+<script src="scripts/api/enterpriseQu.js"></script>
+<script src="scripts/api/city.js"></script>
+<script src="scripts/api/shopcart_nums.js"></script>
+<script src="scripts/api/homepageYarn.js"></script>
+<script src="scripts/api/feedbackfrom.js"></script>
+<script src="scripts/api/productCGmain.js"></script>
+<script src="scripts/api/enterpriseQS.js"></script>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/jquery.js"></script>
+<script src="scripts/util.js"></script>
+<script src="scripts/datedropper.js"></script>
+<script src="scripts/timedropper.js"></script>
+<script src="scripts/enterprisevip.js"></script>
+<!--<script src="scripts/laydate.js"></script>-->
+<script src="scripts/qyrz.js"></script>
+
+<script src="scripts/index.js"></script>
+<script src="scripts/layer.js"></script>
+
+<!-- endbuild -->
+
+<!-- build:js scripts/skin/default/layer.css -->
+<link rel="stylesheet" href="scripts/skin/default/layer.css">
+<!-- endbuild -->
+
+</body>
+</html>

@@ -1,0 +1,381 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>发票寄送地址维护</title>
+
+    <link rel="icon" href="images/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbuild -->
+
+    <!-- build:css styles/invoice_dz.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/invoice_dz.css">
+    <link rel="stylesheet" href="styles/qygl.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+      <div id="lefangtex_top"></div>
+      <div id="lefangtex_nav"></div>
+
+    <div class="qygl">
+            <div class="qygl-container clearfix">
+                <div class="qygl-left left"  id="lefangtex_qygl">
+                </div>
+                <div class="qygl-right right"></div>
+            </div>
+    </div>
+
+
+
+        <div class="foot_bg">
+            <div class="foot">
+                <ul class="ft_list">
+                    <li><a href="index.html">乐纺官网</a></li>
+                    <li><a href="fzzx.html">关于乐纺</a></li>
+                    <li><a href="fzzx.html">法律政策</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="fzzx.html">联系我们</a></li>
+                    <li><a href="javascript:;">在线客服(每日8：30-20：00)</a></li>
+                    <li><a href="fzzx.html">加入我们</a></li>
+                </ul>
+                <ul class="ft_list">
+                    <li><a href="javascript:;">微信公众号</a></li>
+                    <li><a href="javascript:;" class="erwm">
+                        <img src="./images/pic/QR.png" alt="">
+                        </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="copyright_bg">
+            <div class="copyright">
+                <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                <span> 苏ICP备16243357号-1</span>
+                <span class="lefangCount">江苏中添纺织科技有限公司版权所有</span>
+                <script>
+                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262904458'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262904458%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+            </div>
+        </div>
+
+
+    <!-- </div> -->
+
+    <!-- example template -->
+
+    <!-- top nav start -->
+        <script type="milkt/template" id="lefang_top">
+            <!-- top nav start -->
+                <div class="top_nav">
+                    <div class="top_nav_container clearfix">
+                        <div class="top_nav_left left">
+                            <!--<a href="javascript:;" class="top_nav_mobile">
+                                <i><img src="images/icon/ico_mobile.png" alt=""></i>
+                                手机端
+                            </a>-->
+                            <a href="javascript:;">
+                                <i><img src="images/icon/ico_phone.png" alt=""></i>
+                                <span>客服热线:</span>
+                                0510-83560008
+                                <span>( 8:30-20:00 )</span>
+                            </a>
+                        </div>
+                        <div class="top_nav_right right">
+                            <a href="javascript:;" class="hyuser">HI , 欢迎来到乐纺 !</a>
+                            <a href="login.html" class="top_nav_login">登录</a>
+                            <a href="register.html" class="top_nav_regist">注册</a>
+                        </div>
+                    </div>
+                </div>
+            <!-- top nav end -->
+        </script>
+    <!-- top nav end -->
+
+
+    <!--main nav start-->
+        <script type="milkt/template" id="lefang_nav">
+            <!--main nav start-->
+                <div class="main_nav">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav end-->
+        </script>
+    <!--main nav end-->
+
+    <!--main nav_suspend start-->
+           <script type="milkt/template" id="lefang_nav_suspend">
+            <!--main nav suspend start-->
+                <div class="main_nav_suspend">
+                    <div class="main_nav_container clearfix">
+                        <div class="main_nav_logo left">
+                            <a href="index.html">
+                                <img src="images/icon/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main_nav_list left">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_nav_shopcart right">
+                            <a href="shopcart.html">
+                                <img src="images/icon/ico_Buy.png" alt="">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!--main nav suspend end-->
+        </script>
+    <!--main nav end-->
+
+    <!-- enterprise start-->
+      <script type="milkt/template" id="lefang_qygl">
+        <div class="qygl-left-con">
+            <ul>
+                <li class="per-img">
+                    <a href="javascript:;">
+                        <img src="images/u2725.png" alt="">
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="qygl.html">
+                        <i>
+                            <img src="images/icon/会员中心.png">
+                        </i>
+                        会员中心
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/企业信息管理.png">
+                        </i>
+                        企业信息管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="qysmrz_detail.html">
+                                    信息企业认证
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newAddress.html">
+                                    收货地址维护
+                                </a>
+                            </li>
+                            <li>
+                                <a href="invoice_dz.html">
+                                    发票寄送地址维护
+                                </a>
+                            </li>
+                            <li>
+                                <a href="D-enterpriseChildAccountManage.html">
+                                    企业账号管理
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/商品管理.png">
+                        </i>
+                        商品管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="Goods_Management.html">商品发布管理</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/订单管理.png">
+                        </i>
+                        订单管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="D-purchaseList.html">采购订单管理</a></li>
+                            <li><a href="D-saleList.html">销售订单管理</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/合同管理.png">
+                        </i>
+                        合同管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="htdqs_cg.htm">采购合同待签署</a></li>
+                            <li><a href="htgl_cg.html">采购合同管理</a></li>
+                            <li><a href="htdqs_xs.html">销售合同带签署</a></li>
+                            <li><a href="htgl_xs.html">销售合同管理</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/支付管理.png">
+                        </i>
+                        支付管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="wait_pay.html">待付款</a></li>
+                            <li><a href="payment.html">付款记录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="parent">
+                    <a href="javascript:;">
+                        <i>
+                            <img src="images/icon/发票管理.png">
+                        </i>
+                        发票管理
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="D-invoiceManage.html">申请开票</li></a>
+                            <li><a href="D-invoiceManage.html">待开发票</li></a>
+                            <li><a href="D-invoiceManage.html">发票管理</li></a>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </script>
+
+    <script type="milkt/template" id="lefang_qygl_right">
+
+        <div class="qygl-right-con">
+            <div class="contentBox" style="min-height:500px;margin-top:50px;">
+                <table class="table table-bordered cent"  style="width: 90%;margin: 0 auto">
+                    <p class="tit">发票寄送地址维护</p>
+                    <tr>
+                        <td colspan="7" class="title"><a id="add" type="button" class="btn r_add" style="float:right">+ 添加</a></td>
+                    </tr>
+                    <tr>
+                        <th>收件人</th>
+                        <th>所在地区</th>
+                        <th>详细地址</th>
+                        <th>邮政编号</th>
+                        <th>电话/手机号</th>
+                        <th>操作</th>
+                        <th>默认收货地址</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </script>
+    <!-- enterprise end -->
+
+
+
+    <!-- foot start-->
+        <script type="milkt/template" id="lefang_foot">
+            <!-- foot start-->
+                <div class="foot_bg">
+                    <div class="foot">
+                        <ul class="ft_list">
+                            <li><a href="#">乐纺官网</a></li>
+                            <li><a href="#">关于乐纺</a></li>
+                            <li><a href="#">法律政策</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">在线客服(每日8：30-20：00)</a></li>
+                            <li><a href="#">加入我们</a></li>
+                        </ul>
+                        <ul class="ft_list">
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#" class="erwm"></a></li>
+                            <!-- <img src="./images/QR.png" alt=""> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright_bg">
+                    <div class="copyright">
+                        <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+                        <span> 苏ICP备16243357号-1</span>
+                        <span>江苏中添纺织科技有限公司版权所有</span>
+                    </div>
+                </div>
+            <!-- foot end-->
+        </script>
+    <!-- foot end-->
+
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+    <script src="/bower_components/store/dist/store.everything.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/invoice_dz.js -->
+    <script src="scripts/api/homepagePI.js"></script>
+    <script src="scripts/api/enterpriseQS.js"></script>
+    <script src="scripts/api/D-api.js"></script>
+    <script src="scripts/api/shopcart_nums.js"></script>
+    <script src="scripts/api/homepageYarn.js"></script>
+    <script src="scripts/api/feedbackfrom.js"></script>
+    <script src="scripts/api/productCGmain.js"></script>
+
+
+    <script src="scripts/util.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/enterprisevip.js"></script>
+    <script src="scripts/D-invoice_dz.js"></script>
+    <!-- endbuild -->
+
+
+
+  </body>
+</html>

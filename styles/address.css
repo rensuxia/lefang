@@ -1,0 +1,85 @@
+.nav{
+	box-shadow:-3px 10px 20px rgba(0,0,0,0.2);
+	z-index:2;
+}
+.address{
+	width:100%;
+	min-width: 1200px;
+	position:relative;
+	padding-top:40px;
+  margin-bottom: 100px;
+}
+.address-container{
+	width:1200px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding-bottom:50px;
+}
+.address-container .address-shdz{
+	padding-left:75px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.address-shdz p span{
+	font-size:18px;
+	color:#333;
+}
+.address-shdz p a{
+	display:inline-block;
+	width:70px;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	color:#fff;
+	background:#3994CF;
+	border-radius:5px;
+	margin-left:20px;
+}
+.address-container ul li{
+	float:left;
+	color:#9C9B9C;
+	width:20%;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	font-size:14px;
+}
+.address-container ul li.address-op{
+	text-align:left;
+}
+.address-container ul.address-backg{
+	background:#F8F7F8;
+}
+.address-container ul.address-per li{
+	color:#333;
+	padding:20px 0;
+}
+.address-container ul.address-per li:last-of-type{
+	text-align:left;
+}
+.address-per .address-update{
+	width:40px;
+	color:#fff;
+	display: inline-block;
+	height:20px;
+	border:1px solid #A1A0A1;
+	border-radius:5px;
+	background: #3994CF;
+	line-height: 20px;
+	text-align: center;
+	font-size:12px;
+	margin-right:4px;
+}
+.address-per .address-mor{
+	width:70px;
+	height:20px;
+	border:1px solid #A1A0A1;
+	color:#CB6B24;
+	border-radius:5px;
+	font-size:12px;
+	display:inline-block;
+	line-height: 20px;
+	text-align: center;
+	margin-left:10px;
+}

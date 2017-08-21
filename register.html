@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册页面</title>
+
+   <link rel="icon" href="images/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbuild -->
+
+    <!-- build:css styles/register.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/registers.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+      <div class="nav-regist">
+        <div class="nav-container">
+          <div class="clearfix">
+            <div class="nav-logo left">
+              <a href="index.html">
+                <img src="images/icon/logo.png" alt="">
+              </a>
+              <span>
+                乐纺企业注册
+              </span>
+            </div>
+            <div class="nav_hsaccount right">
+              <span>已有账号,</span>
+              <a href="login.html">马上登录</a>
+              <em>|</em>
+              <a href="index.html">乐纺首页</a>
+            </div>
+          </div>
+          <div id="lefangtex-zhuc"></div>
+          <div id="lefangtex-zhuct"></div>
+          <div id="lefangtex-zhucth"></div>
+          <div id="lefangtex-nav-main-foot"></div>
+        </div>
+      </div>     
+    <!-- </div> -->
+
+    <!-- example template -->
+
+
+
+
+    <!-- 注册 开始 -->
+      <script type="milkt/template" id='lefang-zhuc'>
+        <div class="nav-main one-type">
+          <div class="nav-main-top">
+            <img src="images/icon/step1.png" alt="">
+            <span class="nav-main-step1 active">01 验证手机号</span>
+            <span class="nav-main-step2">02 完善信息</span>
+            <span class="nav-main-step3">03 注册成功</span>
+          </div>
+          <div class="nav-main-reg">
+    
+            <ul class="clearfix">
+              <div class="test_rel">
+                  <span>平台内部测试中，暂未全面对外开放。</span>
+                  <span>如有需要请联系客服(0510-83560008)</span>
+              </div>
+              <li class="tupianimg textLeft">
+                <input type="text" placeholder="手机号码" id="linkTel" value="">
+                <span style="color:red;"></span>
+              </li>
+              <li class="clearfix tupianimg">
+                <p>
+                  <input type="text" placeholder="图片验证码" value="" id="tpyzm">
+                </p>
+                <div class="reg-yzm">
+                  <span>
+                    <a href="javascript:;"  id="code">
+                          
+                    </a>
+                  </span>
+                  <span class="reg-yzm-msg reg-yzm-sucess hide">
+                    <em>
+                      <!--<img src="images/u1670.png" alt="">-->
+                    </em>
+                    验证码发送成功
+                  </span>
+                  <span class="reg-yzm-msg reg-yzm-fault hide">
+                    <em>
+                      <!--<img src="images/u1672.png" alt="">-->
+                    </em>
+                    短信验证码失败
+                  </span>
+                </div>
+                <span></span>
+              </li>
+              <li class="clearfix tupianimg">
+                <p>
+                  <input type="text" placeholder="验证码" id="new_yzm" value="">
+                </p>
+                <div class="reg-send-yzm">
+                  <span class="seconds">60</span>
+                  <em>秒</em>
+                  <a href="javascript:;" id="msgyzm">发送短信验证码</a>
+                </div>
+                <span></span>
+              </li>
+              <li class="nav-sub tupianimg">
+                <a href="javascript:;">
+                  <input type="submit" class='next-type' value="下一步">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </script>
+  
+    <!-- 注册 结束 -->
+    
+
+      <script type="milkt/template" id='lefang-zhuct'>
+        <div class="nav-main two-type">
+          <div class="nav-main-top">
+            <img src="images/icon/step2.png" alt="">
+            <span class="nav-main-step1">01 验证手机号</span>
+            <span class="nav-main-step2 active">02 完善信息</span>
+            <span class="nav-main-step3">03 注册成功</span>
+          </div>
+          <div class="nav-main-reg">
+            <!--  <h1>注册</h1> -->
+            <ul class="clearfix">
+              <li>
+                <label for="">企业名称:</label>
+                <input id="companyName" type="text" placeholder="企业营业执照全称" value="">
+                <span></span>
+              </li>
+              <li class="clearfix regt-address">
+                <label for="">所在地:</label>
+                <!--<input id="companyS" type="text" placeholder="请选择省份" value="">-->
+                <select name="" id="companyS">
+                  <option value="请选择省份" title="请选择省份">请选择省份</option>
+                </select>
+                <!--<input type="text" placeholder="请选择城市" id="companyC">-->
+                <select name="" id="companyC">
+                  <option value="请选择城市" title="请选择城市">请选择城市</option>
+                </select>
+                <span></span>
+              </li>
+              <li class="clearfix">
+                <label for="">管理密码:</label>
+                <input type="text" placeholder="6-12位数字字母" id="glmm" value="">
+                <span></span>
+              </li>
+              <li class="regist_notop">
+                <label for="">联系人姓名:</label>
+                <input type="text" placeholder="管理员联系人身份证上的姓名" id="userName" value="">
+                <span></span>
+              </li>
+              <li class="regt-agree">
+                <input type="checkbox" name="1">
+                <span>我已阅读并同意《<a href="fzzx.html?id=4" class="lefang_deal" target="_blank">乐纺网服务协议</a>》</span>
+              </li>
+              <li class="nav-sub">
+                <a href="#" class="reg_return">
+                  <input type="submit" value="注册" class="reg-btn">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </script>
+
+      <script type="milkt/template" id='lefang-zhucth'>
+        <div class="nav-main three-type">
+          <div class="nav-main-top">
+            <img src="images/icon/step3.png" alt="">
+            <span class="nav-main-step1">01 验证手机号</span>
+            <span class="nav-main-step2">02 完善信息</span>
+            <span class="nav-main-step3 active">03 注册成功</span>
+          </div>
+          <div class="nav-main-reg">
+            <ul class="clearfix">
+              <li>
+                <img src="images/icon/true_regist.png" alt="">
+              </li>
+              <li class="clearfix">
+                <h1>恭喜您，新企业注册成功！</h1>
+              </li>
+              <li class="nav-sub">
+                <a href="login.html">
+                  <input type="submit" value="完成">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </script>
+
+  
+    <!-- 底部 开始 -->
+      <script type="milkt/template" id="lefang-nav-main-foot">
+        <div class="nav_main_footer">
+          <p>
+            <a href="javascript:;">关于乐纺</a>
+            <span>联系我们 : <em>在线客服(每日8:30-20:00)</em></span>
+          </p>
+          <div class="copyright">
+              <span>Copyright©2015-2017lefangtex.cn All Rights Reserved </span>
+              <span> 苏ICP备16243357号-1</span>
+              <span>江苏中添纺织科技有限公司版权所有</span>
+          </div>
+        </div>
+      </script>
+    <!-- 底部 结束 -->
+
+    
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/blueimp-md5/js/md5.min.js"></script>
+    <script src="/bower_components/store/dist/store.everything.min.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/register.js -->
+    <script src="scripts/api/userregister.js"></script>
+    <script src="scripts/api/smssend.js"></script>
+    <script src="scripts/api/city.js"></script>
+    <script src="scripts/api/homepagePI.js"></script>
+    <script src="scripts/api/userPN.js"></script>
+    <script src="scripts/api/userCN.js"></script>
+    <script src="scripts/api/homepageYarn.js"></script>
+    <script src="scripts/api/feedbackfrom.js"></script>
+    <script src="scripts/api/productCGmain.js"></script>
+
+
+    <script src="scripts/util.js"></script>
+    <!-- <script src="scripts/index.js"></script> -->
+    <script src="scripts/register.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  
+  </body>
+</html>

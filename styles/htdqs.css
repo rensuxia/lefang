@@ -1,0 +1,103 @@
+	  th,td{
+	  	text-align: center;
+        padding: 10px 0;
+	  }
+
+	  td{
+	  	font-size: 15px;
+        padding: 10px 0;
+	  }
+	  table{
+	  	/*margin-top: 40px!important;*/
+	  	margin-bottom: 50px!important;
+
+	  	width: 80!important;
+	  	text-align: center!important;
+	  }
+	  .title{
+			height: 30px!important;
+			/*padding-top: 14px!important;*/
+      background: #f60;
+
+	  }
+	  .btn{
+	  	font-size: 15px;
+	  }
+	  .xian{
+	  	padding:0 6px;
+	  	width: 4px;
+	  }
+	  .cz a:hover{
+		color:red;
+	  }
+    .xs_bt{
+      width: 90%;
+      margin:0 auto;
+      margin-top: 50px;
+      height: 116px;
+      text-align: center;
+      border-top:1px solid #ccc;
+    }
+    .search{
+      text-align: right;
+      height: 55px;
+    }
+
+    .inp{
+       width: 200px;
+       height:35px;
+       border-radius: 5px;
+       margin-right: 5px;
+       border: 1px solid #ccc;
+
+    }
+    .search .xc{
+      display:block;
+      width: 50px;
+      height: 30px;
+      border:1px solid #ccc;
+    }
+    .xs_bt h1{
+        font-size: 21px;
+        line-height: 58px;
+      font-weight: bold;
+    }
+    .hr{
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    th{
+      font-size: 16px;
+      font-weight:bold;
+      line-height: 52px;
+    }
+    .blue{
+      color:blue;
+    }
+    .btn-primary{
+        background:#FF6600;
+        border-color: #FF6600;
+        color: #FFFFFF;
+    }
+    .btn-primary a{
+        font-size: 15px;
+        color: #FFF;
+    }
+    .btn-primary a:hover{
+        color: #fff;
+        background: #FF6600;
+    }
+
+    .btn-primary:hover {
+       color: #fff !important;
+       background-color: #f60 !important;
+       border-color: #f60 !important;
+    }
+      .btn-primary.active{
+          color: #fff !important;
+          background-color: #f60 !important;
+          border-color: #f60 !important;
+      }
+    #htdqs_cg tbody tr:nth-child(2){
+        background-color: #F5F5F5;
+    }

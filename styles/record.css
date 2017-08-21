@@ -1,0 +1,87 @@
+.record{
+  width: 1200px;
+  min-height: 600px;
+  margin: 30px auto;
+}
+.record_top{
+  /*width: 1200px;*/
+  height: 45px;
+  line-height: 40px;
+  font-size: 28px;
+  color: #fff;
+  background: #EB6100;
+  padding-left: 15px;
+  border-radius: 3px;
+}
+p.record_title{
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 15px;
+  margin:20px 0 30px 0;
+}
+.content b.time{
+  font-size: 18px;
+  padding-left: 30px;
+}
+.content em{
+  font-size: 18px;
+}
+.content input:first-of-type{
+  margin-left: 50px;
+}
+.content p.find{
+  margin: 15px 0 0 160px;
+  color: #9d9d9d;
+}
+.content .start{
+  margin: 15px 0 0 160px;
+}
+.content .start a:first-of-type{
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 22px;
+  background: #EB6100;
+  border-radius: 5px;
+  text-align: center;
+}
+.content .start a:last-of-type{
+  padding-left: 10px;
+  color: #00a2d4;
+}
+.content p.download{
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 15px;
+}
+.content table.record_detail {
+  border: 1px solid #ddd;
+  width:1200px;
+
+}
+.content table.record_detail tr{
+  text-align: center;
+}
+.content table.record_detail tr:first-of-type{
+  background: #F4F5F9;
+}
+.content table.record_detail tr td{
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+  line-height: 38px;
+  font-size: 16px;
+}
+/*点击高级选项显示的内容*/
+.toggle {
+  width: 500px;
+  margin: 0 auto;
+  background: #F4F5F9;
+}
+.toggle select,.toggle input{
+  margin-left: 50px;
+}
+.toggle input.money{
+ width: 100px;
+}
